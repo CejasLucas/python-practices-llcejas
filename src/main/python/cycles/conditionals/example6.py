@@ -1,4 +1,19 @@
-print("CONDITIONALS PRACTICE\n")
+def run_example_6():
+    print("\nWrite the number corresponding to the day of the week to complete the task: ")
+    print("(1) Monday")
+    print("(2) Tuesday")
+    print("(3) Wednesday")
+    print("(4) Thursday")
+    print("(5) Friday")
+    print("(0) Exit")
+    number = int(input("Enter a number: "))
+    levels = { 1: level, 2: level, 3: level, 4: practical, 5: queries }
+
+    if number in levels:
+        levels[number]()
+    else:
+        print("Invalid option. Try again.")
+
 
 def level():
     response = input("Were there exams that day? Enter [Y] to confirm: ")
@@ -11,8 +26,7 @@ def level():
         else:
             passing_percentage = (approved / number_of_students) * 100
             print(f"Passing percentage: {passing_percentage:.2f}%")
-    else:
-        return
+
 
 
 def practical():
@@ -32,22 +46,3 @@ def queries():
     value_per_query = float(input("Enter the price per consultation: "))
     final_total_income = float(number_of_student * value_per_query)
     print(f"Final total income ${final_total_income}")
-
-
-def run_example_6():
-    print("\nWrite the number corresponding to the day of the week to complete the task: ")
-    print("(1) Monday")
-    print("(2) Tuesday")
-    print("(3) Wednesday")
-    print("(4) Thursday")
-    print("(5) Friday")
-    print("(0) Exit")
-
-    number = int(input("Enter a number: "))
-
-    levels = { 1: level, 2: level, 3: level, 4: practical, 5: queries }
-
-    if number in levels:
-        levels[number]()
-    else:
-        print("Invalid option. Try again.")

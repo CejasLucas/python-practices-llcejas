@@ -21,7 +21,8 @@ def run(number):
 
 
 if __name__ == "__main__":
-    print("\nWhich example would you like to run?")
+    print("\n==================COLLECTIONS PRACTICE==================")
+    print("Which example would you like to run?")
     print("1 - Create a list of words and display it")
     print("2 - Count how many times a word appears in the list")
     print("3 - Replace a word in the list with another")

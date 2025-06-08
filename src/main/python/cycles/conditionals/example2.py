@@ -1,5 +1,3 @@
-print("CONDITIONALS PRACTICE\n")
-
 def run_example_2():
 
     day = int(input("Enter a number from 1 to 7 to get the day of the week: "))

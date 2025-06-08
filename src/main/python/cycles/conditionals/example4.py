@@ -1,5 +1,3 @@
-print("CONDITIONALS PRACTICE\n")
-
 def run_example_4():
 
     character = input("Enter a character: ")

@@ -1,5 +1,3 @@
-print("CONDITIONALS PRACTICE\n")
-
 def run_example_1():
     x = float(input("Enter the first number: "))
     y = float(input("Enter the second number: "))

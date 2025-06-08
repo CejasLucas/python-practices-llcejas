@@ -21,7 +21,8 @@ def run(number):
 
 
 if __name__ == "__main__":
-    print("\nWhich example do you want to run?")
+    print("\n=======CONDITIONALS PRACTICE=======")
+    print("Which example do you want to run?")
     print("1 - Find the Smaller Number")
     print("2 - Day of the Week")
     print("3 - Voting System")

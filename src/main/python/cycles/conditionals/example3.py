@@ -1,5 +1,3 @@
-print("CONDITIONALS PRACTICE\n")
-
 def run_example_3():
     print("R = RED Party")
     print("G = GREEN Party")
