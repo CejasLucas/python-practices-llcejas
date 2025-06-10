@@ -25,8 +25,12 @@ if __name__ == "__main__":
     print("4 - Display the first N numbers of the Fibonacci sequence")
     print("0 - Exit")
 
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Enter a number: "))
+    print("")
+
     if 0 < choice < 5:
         run(choice)
+    elif choice == 0:
+        print("You have finished the program")
     else:
-        print("Program exited or invalid input.")
+        print("Invalid option, please re-enter a number")

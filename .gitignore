@@ -1,0 +1,26 @@
+# Ignorar archivos compilados y cachés
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignorar entornos virtuales
+venv/
+env/
+.venv/
+
+# Ignorar archivos específicos de configuraciones de IDEs
+.idea/workspace.xml
+
+# Ignorar archivos de configuración de usuario
+*.swp
+*.swo
+*.bak
+.DS_Store
+.idea/
+.vscode/
+
+# Si estás usando GitHub y quieres subir todo el código fuente:
+# NO ignores todo con '*', ya que eso lo bloquearía todo.
+
+# Ignorar archivos de prueba temporal
+*.log

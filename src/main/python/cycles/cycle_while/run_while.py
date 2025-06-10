@@ -37,8 +37,12 @@ if __name__ == "__main__":
     print("8 - Enter even numbers while choosing to continue")
     print("0 - Exit")
 
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Enter a number: "))
+    print("")
+
     if 0 < choice < 9:
         run(choice)
+    elif choice == 0:
+        print("You have finished the program")
     else:
-        print("Program exited or invalid input.")
+        print("Invalid option, please re-enter a number")

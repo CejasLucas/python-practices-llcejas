@@ -14,11 +14,7 @@ def run(number):
         5: run_example_5,
         6: run_example_6
     }
-    if number in examples:
-        examples[number]()
-    else:
-        print("Invalid option. Please try again.")
-
+    examples[number]()
 
 if __name__ == "__main__":
     print("\n==================COLLECTIONS PRACTICE==================")
@@ -33,4 +29,9 @@ if __name__ == "__main__":
 
     choice = int(input("Enter a number: "))
     print("")
-    if 0 < choice < 7: run(choice)
+    if 0 < choice < 7:
+        run(choice)
+    elif choice == 0:
+        print("You have finished the program")
+    else:
+        print("Invalid option, please re-enter a number")

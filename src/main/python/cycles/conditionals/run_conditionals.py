@@ -32,4 +32,11 @@ if __name__ == "__main__":
     print("0 - Exit")
 
     choice = int(input("Enter a number: "))
-    if 0 < choice < 7: run(choice)
+    print("")
+
+    if 0 < choice < 7:
+        run(choice)
+    elif choice == 0:
+        print("You have finished the program")
+    else:
+        print("Invalid option, please re-enter a number")
