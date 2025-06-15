@@ -5,14 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/example3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/run_dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/run_venn_diagrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/launcher_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/runner_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/collections/lists/launcher_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/collections/sets/launcher_sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/launcher_conditionals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/runner_conditionals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/launcher_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/runner_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/launcher_while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/launcher_venn_diagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/venn_diagrams/runner_venn_diagrams.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/example1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/example3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/dictionaries/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/run_dictionaries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/example3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/example5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/example6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/run_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/lists/runner_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/sets/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/sets/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/example3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/sets/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/sets/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/run_sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/sets/runner_sets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/tuples/example2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/run_tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/collections/tuples/runner_tuples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/example3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/example5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/example6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/run_conditionals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/example3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/run_for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/example8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/run_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/runner_while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/run_venn_diagrams.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +92,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.examples (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_venn_diagrams.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.example1.executor": "Run",
+    "Python.examples (1).executor": "Run",
+    "Python.examples (2).executor": "Run",
+    "Python.examples (3).executor": "Run",
+    "Python.examples.executor": "Run",
+    "Python.run_conditionals.executor": "Run",
+    "Python.run_dictionaries.executor": "Run",
+    "Python.run_for.executor": "Run",
+    "Python.run_lists.executor": "Run",
+    "Python.run_sets.executor": "Run",
+    "Python.run_venn_diagrams.executor": "Run",
+    "Python.run_while.executor": "Run",
+    "Python.runner_dictionaries.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "development",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Python.run_venn_diagrams">
-    <configuration name="examples (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.runner_dictionaries">
+    <configuration name="runner_conditionals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-practices-llcejas" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/cycles/conditionals/examples.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/cycles/conditionals/runner_conditionals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,73 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="examples (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/collections/lists" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/collections/lists/examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="examples (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/cycles/cycle_while" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/cycles/cycle_while/examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/cycles/cycle_for" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/cycles/cycle_for/examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run_dictionaries" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="runner_dictionaries" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-practices-llcejas" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/collections/dictionaries/run_dictionaries.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/collections/dictionaries/runner_dictionaries.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +159,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_venn_diagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="runner_for" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-practices-llcejas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/cycles/cycle_for" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/cycles/cycle_for/runner_for.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runner_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-practices-llcejas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/collections/lists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/collections/lists/runner_lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runner_sets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-practices-llcejas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/collections/sets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/collections/sets/runner_sets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runner_venn_diagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-practices-llcejas" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/venn_diagrams/run_venn_diagrams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/venn_diagrams/runner_venn_diagrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,18 +249,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_venn_diagrams" />
-        <item itemvalue="Python.examples (3)" />
-        <item itemvalue="Python.examples (2)" />
-        <item itemvalue="Python.examples" />
-        <item itemvalue="Python.examples (1)" />
+        <item itemvalue="Python.runner_venn_diagrams" />
+        <item itemvalue="Python.runner_lists" />
+        <item itemvalue="Python.runner_sets" />
+        <item itemvalue="Python.runner_for" />
+        <item itemvalue="Python.runner_conditionals" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
