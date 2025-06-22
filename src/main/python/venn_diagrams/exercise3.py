@@ -1,4 +1,4 @@
-from src.main.python.venn_diagrams.launcher_venn_diagrams import venn2_colors
+from src.main.python.venn_diagrams.palette_colors_venn_diagrams import venn2_colors
 from matplotlib import pyplot as plt
 from matplotlib import patheffects
 from matplotlib_venn import venn2
@@ -24,7 +24,7 @@ data = {
 
 def run_exercise_3():
     # Get color palette
-    palette = venn2_colors()
+    palette = venn2_colors
 
     # Calculate totals
     total_from_sets = sum([v[1] for v in data.values()])
@@ -73,7 +73,8 @@ def run_exercise_3():
     )
 
     # Show the final diagram
-    plt.title("Enrollment Distribution in Algebra and Sports")
+    plt.gcf().canvas.manager.set_window_title("Exercise 3")
+    plt.suptitle("Venn Diagram: Enrollment distribution", fontsize=12, fontweight='bold')
     plt.tight_layout()
     plt.show()
 

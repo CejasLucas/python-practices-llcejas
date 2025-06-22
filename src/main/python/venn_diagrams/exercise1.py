@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib_venn import venn3
-from src.main.python.venn_diagrams.launcher_venn_diagrams import venn3_colors
+from src.main.python.venn_diagrams.palette_colors_venn_diagrams import venn3_colors
 
 data = {
     '100': (5, 'Motorbike only'),
@@ -38,8 +38,7 @@ def run_exercise_1():
             label_obj.set_text(f"{label}\n({count})")
             label_obj.set_fontsize(11)
 
-    plt.title('Venn Diagram: Transportation Preferences', fontsize=18)
-
     plt.tight_layout(pad=2)
-
+    plt.gcf().canvas.manager.set_window_title("Exercise 1")
+    plt.suptitle("Venn Diagram: Transportation Preferences", fontsize=12, fontweight='bold')
     plt.show()

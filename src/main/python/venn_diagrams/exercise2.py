@@ -1,4 +1,4 @@
-from src.main.python.venn_diagrams.launcher_venn_diagrams import venn3_colors
+from src.main.python.venn_diagrams.palette_colors_venn_diagrams import venn3_colors
 from matplotlib import pyplot as plt
 from matplotlib import patheffects
 from matplotlib_venn import venn3
@@ -22,7 +22,7 @@ data = {
 def run_exercise_2():
     region_keys = ['100', '010', '001', '110', '101', '011', '111']
     subset_dict = {k: float(data[k][1]) for k in region_keys}
-    palette = venn3_colors()
+    palette = venn3_colors
 
     # Create Venn diagram
     venn = venn3(subsets=subset_dict, set_labels=(data['100'][0], data['110'][0], data['001'][0]))
@@ -56,7 +56,8 @@ def run_exercise_2():
         )
 
     # Display the diagram
-    plt.title('Venn Diagram: Distribution of Language')
+    plt.gcf().canvas.manager.set_window_title("Exercise 2")
+    plt.suptitle("Venn Diagram: Distribution of Language", fontsize=12, fontweight='bold')
     plt.tight_layout()
     plt.show()
 
