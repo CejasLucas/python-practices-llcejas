@@ -27,7 +27,6 @@ def get_venn_diagrams_exercises():
 
 def get_venn_diagrams_menu_text():
     return (
-            Fore.LIGHTWHITE_EX + Style.DIM +
             "Which exercise would you like to run?\n"
             " 1 - Basic Set Operations in Python.\n"
             " 2 - Language Study Venn Diagram.\n"
@@ -43,6 +42,6 @@ def get_venn_diagrams_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n================== VENN DIAGRAMS PRACTICE ==================" + Style.RESET_ALL)
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n================== VENN DIAGRAMS PRACTICE ==================" + Style.RESET_ALL)
     builder = ExerciseBuilder(exercises=get_venn_diagrams_exercises(), menu_text=get_venn_diagrams_menu_text())
     builder.run()

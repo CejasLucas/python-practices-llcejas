@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
+from src.main.venn_diagrams.palette_colors import venn3_colors
 from matplotlib_venn import venn3
-from venn_diagrams.palette_colors import venn3_colors
+import matplotlib.pyplot as plt
 
 # Survey data: number of families with children in different education levels
 education_data = {

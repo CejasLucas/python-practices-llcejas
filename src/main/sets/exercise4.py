@@ -1,8 +1,8 @@
-from sets.exercise1 import create_set
-from sets.exercise1 import create_list
-from sets.exercise1 import run_exercise_1
-from sets.exercise2 import run_exercise_2
-from sets.exercise3 import run_exercise_3
+from src.main.sets.exercise1 import create_set
+from src.main.sets.exercise1 import create_list
+from src.main.sets.exercise1 import run_exercise_1
+from src.main.sets.exercise2 import run_exercise_2
+from src.main.sets.exercise3 import run_exercise_3
 
 def run_exercise_4():
     print("\nWrite the number corresponding: ")

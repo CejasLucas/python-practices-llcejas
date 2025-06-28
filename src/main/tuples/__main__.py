@@ -13,7 +13,6 @@ def get_tuples_exercises():
 
 def get_tuples_menu_text():
     return (
-        Fore.LIGHTWHITE_EX + Style.DIM +
         "Which example would you like to run?\n"
         "1 - Create a tuple with numbers and show how many times a given number appears.\n"
         "2 - Display the value from a tuple (1 to 10) based on a given index.\n"
@@ -22,6 +21,6 @@ def get_tuples_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n============================== COLLECTIONS PRACTICE TUPLE ==============================")
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n============================== COLLECTIONS PRACTICE TUPLE ==============================")
     builder = ExerciseBuilder(exercises=get_tuples_exercises(), menu_text=get_tuples_menu_text())
     builder.run()

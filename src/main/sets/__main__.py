@@ -15,7 +15,6 @@ def get_sets_exercises():
 
 def get_sets_menu_text():
     return (
-            Fore.LIGHTWHITE_EX + Style.DIM +
             "Which example would you like to run? \n"
             "1 - Intersection of sets without duplicates.\n"
             "2 - Union of sets without duplicates.\n"
@@ -25,6 +24,6 @@ def get_sets_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n============================== COLLECTIONS PRACTICE SET ==============================")
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n============================== COLLECTIONS PRACTICE SET ==============================")
     builder = ExerciseBuilder(exercises=get_sets_exercises(), menu_text=get_sets_menu_text())
     builder.run()

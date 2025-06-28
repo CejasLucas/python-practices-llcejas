@@ -1,4 +1,4 @@
-from lists.exercise1 import run_exercise_1
+from src.main.lists.exercise1 import run_exercise_1
 
 def run_exercise_3():
     word_list = run_exercise_1()

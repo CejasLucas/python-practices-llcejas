@@ -6,5 +6,5 @@ def run_exercise_1():
         word = input(f"Enter word {i + 1}: ")
         word_list.append(word)
 
-    print(f"The created list is: {word_list} \n")
+    print(word_list)
     return word_list

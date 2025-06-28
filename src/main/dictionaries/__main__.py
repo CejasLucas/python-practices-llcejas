@@ -13,7 +13,6 @@ def get_dict_exercises():
 
 def get_dict_menu_text():
     return (
-        Fore.LIGHTWHITE_EX + Style.DIM +
         "Which example would you like to run?\n"
         "1 - Add contacts (name and phone number) to a dictionary. No duplicate names allowed.\n"
         "2 - Fruit price calculator. Enter fruit name and quantity sold to get the total price.\n"
@@ -22,6 +21,6 @@ def get_dict_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n================================== COLLECTIONS PRACTICE: DICTIONARIES ==================================")
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n================================== COLLECTIONS PRACTICE: DICTIONARIES ==================================")
     builder = ExerciseBuilder(exercises=get_dict_exercises(), menu_text=get_dict_menu_text())
     builder.run()

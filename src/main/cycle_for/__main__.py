@@ -15,7 +15,6 @@ def get_for_exercises():
 
 def get_for_menu_text():
     return (
-            Fore.LIGHTWHITE_EX + Style.DIM +
             "Which exercise would you like to run?\n"
             "1 - Print the first 100 natural numbers.\n"
             "2 - Sum the first N odd numbers\n"
@@ -25,6 +24,6 @@ def get_for_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n======================= CYCLE FOR PRACTICE =======================" + Style.RESET_ALL)
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n======================= CYCLE FOR PRACTICE =======================" + Style.RESET_ALL)
     builder = ExerciseBuilder(exercises=get_for_exercises(), menu_text=get_for_menu_text())
     builder.run()

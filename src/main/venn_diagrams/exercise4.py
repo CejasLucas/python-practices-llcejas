@@ -1,8 +1,8 @@
+from src.main.venn_diagrams.palette_colors import venn2_colors
 from matplotlib import pyplot as plt
 from matplotlib import patheffects
 from matplotlib_venn import venn2
 from colorama import Fore, Style
-from venn_diagrams.palette_colors import venn2_colors
 
 # Survey data
 survey = {

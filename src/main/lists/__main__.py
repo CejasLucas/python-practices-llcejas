@@ -19,7 +19,6 @@ def get_lists_exercises():
 
 def get_lists_menu_text():
     return (
-            Fore.LIGHTWHITE_EX + Style.DIM +
             "Which example would you like to run?\n"
             "1 - Create a list of words and display it.\n"
             "2 - Count how many times a word appears in the list.\n"
@@ -31,6 +30,6 @@ def get_lists_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n=========================== COLLECTIONS PRACTICE LIST ===========================")
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n=========================== COLLECTIONS PRACTICE LIST ===========================")
     builder = ExerciseBuilder(exercises=get_lists_exercises(), menu_text=get_lists_menu_text())
     builder.run()

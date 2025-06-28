@@ -19,7 +19,6 @@ def get_conditionals_exercises():
 
 def get_conditionals_menu_text():
     return (
-            Fore.LIGHTWHITE_EX + Style.DIM +
             "Which example do you want to run?.\n"
             "1 - Find the Smaller Number.\n"
             "2 - Day of the Week.\n"
@@ -31,6 +30,6 @@ def get_conditionals_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n=======CONDITIONALS PRACTICE=======")
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n========== CONDITIONALS PRACTICE ==========")
     builder = ExerciseBuilder(exercises=get_conditionals_exercises(), menu_text=get_conditionals_menu_text())
     builder.run()

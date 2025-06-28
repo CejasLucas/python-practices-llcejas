@@ -1,4 +1,4 @@
-from lists.exercise1 import run_exercise_1
+from src.main.lists.exercise1 import run_exercise_1
 
 def run_exercise_2():
     count = 0
@@ -8,4 +8,5 @@ def run_exercise_2():
         if word_to_search == word:
             count =+ 1
 
+    print(create_word_list)
     print(f"The word {word_to_search} is found {count} times")

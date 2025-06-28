@@ -23,7 +23,6 @@ def get_while_exercises():
 
 def get_while_menu_text():
     return (
-            Fore.LIGHTWHITE_EX + Style.DIM +
             "Which exercise would you like to run?\n"
             "1 - Enter a specified amount of positive numbers.\n"
             "2 - Enter a second number greater than the first.\n"
@@ -37,6 +36,6 @@ def get_while_menu_text():
     )
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + "\n========================= WHILE CYCLE PRACTICE =========================" + Style.RESET_ALL)
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n========================= WHILE CYCLE PRACTICE =========================" + Style.RESET_ALL)
     builder = ExerciseBuilder(exercises=get_while_exercises(), menu_text=get_while_menu_text())
     builder.run()
