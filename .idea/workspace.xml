@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="" />
+    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/__utils__/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/__utils__/builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/conditionals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cycle_for/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/cycle_while/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dictionaries/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dictionaries/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/lists/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/lists/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sets/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tuples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tuples/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/venn_diagrams/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/venn_diagrams/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dictionaries/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dictionaries/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dictionaries/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/launcher_dictionaries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/dictionaries/runner_dictionaries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lists/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lists/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lists/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lists/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lists/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/lists/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/launcher_lists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/lists/runner_lists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sets/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sets/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sets/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sets/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/launcher_sets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/sets/runner_sets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tuples/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tuples/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/tuples/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/launcher_tuples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/collections/tuples/runner_tuples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/launcher_conditionals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/conditionals/runner_conditionals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/conditionals/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_for/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_for/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_for/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_for/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/launcher_for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_for/runner_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_for/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/exercise8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/launcher_while.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/cycles/cycle_while/runner_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cycle_while/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise10.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/exercise9.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/exercise9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/launcher_venn_diagrams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/palette_colors_venn_diagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/venn_diagrams/palette_colors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/python/venn_diagrams/runner_venn_diagrams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/python/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2yBkTERa95mh4Bd8uBHTDSp12ac" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,14 +114,43 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.__main__ (1).executor": "Run",
+    "Python.__main__ (2).executor": "Run",
+    "Python.__main__.executor": "Run",
+    "Python.example1.executor": "Run",
+    "Python.examples (1).executor": "Run",
+    "Python.examples (2).executor": "Run",
+    "Python.examples (3).executor": "Run",
+    "Python.examples.executor": "Run",
+    "Python.run_conditionals.executor": "Run",
+    "Python.run_dictionaries.executor": "Run",
+    "Python.run_for.executor": "Run",
+    "Python.run_lists.executor": "Run",
+    "Python.run_sets.executor": "Run",
+    "Python.run_venn_diagrams.executor": "Run",
+    "Python.run_while.executor": "Run",
+    "Python.runner_dictionaries.executor": "Run",
+    "Python.runner_venn_diagrams.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "development",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/python/utils" />
+      <recent name="$PROJECT_DIR$/src/main/python" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
