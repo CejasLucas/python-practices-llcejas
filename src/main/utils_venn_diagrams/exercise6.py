@@ -1,4 +1,4 @@
-from src.main.venn_diagrams.palette_colors import venn3_colors
+from src.main.utils_venn_diagrams.palette_colors import venn3_colors
 from matplotlib_venn import venn3
 import matplotlib.pyplot as plt
 

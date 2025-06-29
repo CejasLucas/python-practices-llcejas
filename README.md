@@ -62,7 +62,9 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 │       ├── lists/
 │       ├── sets/
 │       ├── tuples/
-│       └── venn_diagrams/
+│       ├── utils_matplotlib/
+│       ├── utils_pandas/
+│       └── utils_venn_diagrams/
 ├── test/                   # Pruebas automáticas
 │   ├── __init__.py
 │   └── test.py

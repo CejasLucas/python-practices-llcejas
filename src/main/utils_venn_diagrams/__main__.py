@@ -1,14 +1,14 @@
 from src.main.__utils__.builder import ExerciseBuilder
-from src.main.venn_diagrams.exercise1 import run_exercise_1
-from src.main.venn_diagrams.exercise2 import run_exercise_2
-from src.main.venn_diagrams.exercise3 import run_exercise_3
-from src.main.venn_diagrams.exercise4 import run_exercise_4
-from src.main.venn_diagrams.exercise5 import run_exercise_5
-from src.main.venn_diagrams.exercise6 import run_exercise_6
-from src.main.venn_diagrams.exercise7 import run_exercise_7
-from src.main.venn_diagrams.exercise8 import run_exercise_8
-from src.main.venn_diagrams.exercise9 import run_exercise_9
-from src.main.venn_diagrams.exercise10 import run_exercise_10
+from src.main.utils_venn_diagrams.exercise1 import run_exercise_1
+from src.main.utils_venn_diagrams.exercise2 import run_exercise_2
+from src.main.utils_venn_diagrams.exercise3 import run_exercise_3
+from src.main.utils_venn_diagrams.exercise4 import run_exercise_4
+from src.main.utils_venn_diagrams.exercise5 import run_exercise_5
+from src.main.utils_venn_diagrams.exercise6 import run_exercise_6
+from src.main.utils_venn_diagrams.exercise7 import run_exercise_7
+from src.main.utils_venn_diagrams.exercise8 import run_exercise_8
+from src.main.utils_venn_diagrams.exercise9 import run_exercise_9
+from src.main.utils_venn_diagrams.exercise10 import run_exercise_10
 from colorama import Fore, Style
 
 def get_venn_diagrams_exercises():
