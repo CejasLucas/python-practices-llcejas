@@ -63,6 +63,8 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 │       ├── sets/
 │       ├── tuples/
 │       ├── utils_matplotlib/
+│       ├── utils_networkx/
+│       ├── utils_numpy/
 │       ├── utils_pandas/
 │       └── utils_venn_diagrams/
 ├── test/                   # Pruebas automáticas
