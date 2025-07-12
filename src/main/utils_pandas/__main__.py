@@ -28,7 +28,7 @@ def get_pandas_menu_text():
         "4 - Analyze car prices from autos.xlsx (min, max, and average).\n"
         "5 - Analyze comercio_interno.csv (dimensions, plots, sorting, aggregation).\n"
         "6 - Grouping and statistics using users, votes, and movies datasets.\n"
-        "7 - Analyze salaries.csv (seniority stats, job percentages, salary aggregations).\n"
+        "7 - Analyze salaries_database.csv (seniority stats, job percentages, salary aggregations).\n"
         "0 - Exit."
     )
 

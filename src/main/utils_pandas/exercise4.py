@@ -1,5 +1,5 @@
-import pandas as pd
 import os
+import pandas as pd
 
 def calculated_pandas_df(dataframe):
     dataframe['Price'] = pd.to_numeric(dataframe['Price'], errors='coerce')
@@ -19,7 +19,7 @@ def calculated_pandas_df(dataframe):
 
 def run_exercise_4():
     base_path = os.path.dirname(__file__)
-    file_path = os.path.join(base_path, "..", "..", "..", "data", "car_database.csv")
+    file_path = os.path.join(base_path, "..", "..", "..", "data", "cars_database.csv")
     file_path = os.path.abspath(file_path)
 
     print(f"Searching for the file at: {file_path}\n")
@@ -28,7 +28,7 @@ def run_exercise_4():
 
     new_dataframe = calculated_pandas_df(dataframe)
 
-    print(f"car_database.csv file found, its content is as follows:\n{dataframe}\n")
+    print(f"cars_database.csv file found, its content is as follows:\n{dataframe}\n")
 
     pd.set_option('display.float_format', '{:.0f}'.format)
 
