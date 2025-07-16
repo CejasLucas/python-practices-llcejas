@@ -1,20 +1,19 @@
-# 🐍 Repositorio de Práctica en Python
+# 🐍 Proyecto personal en Python
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 
-¡Bienvenido! Este es mi repositorio personal donde pongo en práctica mis habilidades como programador utilizando **Python**.  
-Este proyecto está dirigido a estudiantes y autodidactas que desean mejorar su comprensión práctica de Python.
+¡Bienvenido! Este es mi repositorio personal donde pongo en práctica mis habilidades como programador. 
+Este proyecto está dirigido a estudiantes y autodidactas que desean mejorar su comprensión práctica de **Python**.
 
-Aquí encontrarás ejercicios, scripts, proyectos y utilidades que exploran tanto lo básico como aspectos más avanzados del lenguaje.
+Aquí encontrarás ejercicios, scripts y utilidades que exploran tanto lo básico como aspectos más avanzados del lenguaje.
 
-Este proyecto tiene como objetivo **reforzar y organizar mi aprendizaje** en programación con Python,  
-usando una estructura modular que facilita la escalabilidad, la reutilización de código y el uso de buenas prácticas.
+Este proyecto tiene como objetivo **reforzar y organizar mi aprendizaje** en programación con Python, usando una estructura 
+modular que facilita la escalabilidad, la reutilización de código y el uso de buenas prácticas.
 
 ## 📂 Contenido del repositorio
 
 - Ejercicios prácticos por tema (condicionales, ciclos, colecciones, diagramas de Venn, etc.)
 - Scripts para automatización y scripting
-- Proyectos y utilidades
 - Contenido avanzado como análisis de datos y grafos
 
 Todo está organizado por carpetas para facilitar la navegación, el mantenimiento y la extensión del repositorio.
@@ -29,13 +28,17 @@ Todo está organizado por carpetas para facilitar la navegación, el mantenimien
 - Condicionales (`if`, `else`, `elif`)
 - Métodos y clases (`def`, `class`) 
 - Colecciones como `list`, `dict`, `set`, `tuple`
-- Operaciones con conjuntos y diagramas de Venn: `union`, `intersection`, `difference` 
 
 ### Herramientas y librerías:
 
-- Automatización con scripts
-- Análisis de datos con `pandas`, `numpy`, `matplotlib` (próximamente)
-- Algoritmos en grafos usando `networkx`
+- Automatización con scripts  
+- Análisis de datos con:
+  - `matplotlib`: Visualización de datos con gráficos de **barras, líneas, tortas (pie charts).**
+  - `matplotlib_venn`: Diagramas de dos conjuntos (venn2) y tres conjuntos (venn3). Incluyendo operaciones 
+    con conjuntos como **union, intersection y difference.**  
+  - `pandas`: Manejo y análisis de datos usando estructuras **Series** y **DataFrame**  
+  - `numpy`: Operaciones con **matrices** y arreglos multidimensionales  
+  -  `networkx`: Algoritmos en grafos (Djikstrack)
 
 ---
 
@@ -49,10 +52,11 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 
 ```bash
 .
-├── .venv/                  # Entorno virtual local (excluido por .gitignore)
-├── src/                    # Código fuente principal
+├── .venv/                     # Entorno virtual local (excluido por .gitignore)
+├── data/                      # Archivos de datos (txt, csv) para análisis y gráficos
+├── src/                       # Código fuente principal
 │   └── main/
-│       ├── __utils__/      # Funciones auxiliares reutilizables
+│       ├── __utils__/         # Funciones auxiliares reutilizables
 │       │   ├── __init__.py
 │       │   └── builder.py
 │       ├── conditionals/
@@ -62,33 +66,17 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 │       ├── lists/
 │       ├── sets/
 │       ├── tuples/
-│       └── venn_diagrams/
-├── test/                   # Pruebas automáticas
+│       ├── utils_matplotlib/
+│       ├── utils_networkx/
+│       ├── utils_numpy/
+│       ├── utils_pandas/
+│       └── utils_venn_diagrams/
+├── test/                      # Pruebas automáticas
 │   ├── __init__.py
 │   └── test.py
-├── .gitignore              # Ignora archivos como .venv/
-└── README.md               # Documentación del proyecto
+├── .gitignore                 # Ignora archivos como .venv/
+└── README.md                  # Documentación del proyecto
 ```
-
---- 
-
-## 📥 Importaciones correctas en proyectos Python
-
-Cuando se trabaja con proyectos estructurados como este, es fundamental usar **importaciones absolutas**, desde la raíz del proyecto.
-
-✅ Correcto:
-```python
-from src.main.__utils__.builder import ExerciseBuilder
-from src.main.conditionals.exercise1 import run_exercise
-```
-
-❌ Incorrecto (puede causar errores):
-```python
-from ..__utils__ import builder
-from conditionals.exercise1 import run_exercise
-```
-
-Usar `python -m` desde la raíz requiere importaciones absolutas para que Python sepa cómo encontrar los módulos.
 
 ---
 
