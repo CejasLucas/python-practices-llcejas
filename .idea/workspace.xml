@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/movies_database.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/salaries_database.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/style_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/car_database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cars_database.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/internal_commerce_database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/commerce_database.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_pandas/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_pandas/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_pandas/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_pandas/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_pandas/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_pandas/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_pandas/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_pandas/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_pandas/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_pandas/exercise7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/minimum_spanning_tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/original_graph.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise7.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,42 +44,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.__main__ (1).executor": "Run",
-    "Python.__main__ (2).executor": "Run",
-    "Python.__main__.executor": "Run",
-    "Python.example1.executor": "Run",
-    "Python.examples (1).executor": "Run",
-    "Python.examples (2).executor": "Run",
-    "Python.examples (3).executor": "Run",
-    "Python.examples.executor": "Run",
-    "Python.run_conditionals.executor": "Run",
-    "Python.run_dictionaries.executor": "Run",
-    "Python.run_for.executor": "Run",
-    "Python.run_lists.executor": "Run",
-    "Python.run_sets.executor": "Run",
-    "Python.run_venn_diagrams.executor": "Run",
-    "Python.run_while.executor": "Run",
-    "Python.runner_dictionaries.executor": "Run",
-    "Python.runner_venn_diagrams.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "development",
-    "last_opened_file_path": "/home/usuario/Documentos/GitHub/python-practices-llcejas/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.__main__ (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__ (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_conditionals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_venn_diagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runner_dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runner_venn_diagrams.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/usuario/Documentos/GitHub/python-practices-llcejas/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -110,6 +111,13 @@
       <workItem from="1751811785186" duration="6709000" />
       <workItem from="1751822962456" duration="2667000" />
       <workItem from="1752317236315" duration="10802000" />
+      <workItem from="1752855744678" duration="3701000" />
+      <workItem from="1752944853912" duration="6173000" />
+      <workItem from="1753020811006" duration="3545000" />
+      <workItem from="1753141632563" duration="4727000" />
+      <workItem from="1753316654867" duration="5958000" />
+      <workItem from="1753367437771" duration="7000" />
+      <workItem from="1754161961669" duration="4807000" />
     </task>
     <servers />
   </component>

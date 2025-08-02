@@ -24,3 +24,6 @@ env/
 
 # Ignorar archivos de prueba temporal
 *.log
+
+# Ignorar salidas generadas automáticamente
+/outputs/

@@ -129,12 +129,12 @@ Incluso si el archivo está vacío, su presencia mejora la claridad y el manteni
 Desde la **raíz del proyecto** (donde se encuentran `.gitignore`, `.venv`, `src`, `README.md`), podés ejecutar cualquier módulo usando:
 
 ```bash
-  python -m src.main.nombre_modulo
+  python3 -m src.main.nombre_modulo
 ```
 
 Ejemplo:
 ```bash
-  python -m src.main.conditionals
+   python3 -m src.main.utils_pandas
 ```
 
 ---
