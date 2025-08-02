@@ -1,33 +1,21 @@
 import networkx as nx
-import matplotlib.pyplot as plt
+from src.main.utils_networkx.style_graph import GraphStyle, build_graph, theme_palette
 
-def data():
+def get_graph_data():
     return [
-        ("Z", "E", 3), ("Z", "F", 2), ("Z", "C", 1),
-        ("F", "E", 1), ("F", "C", 1),
-        ("E", "D", 2), ("C", "B", 5),
-        ("D", "G", 1), ("B", "G", 1),
-        ("B", "A", 4), ("G", "A", 2), ("D", "A", 5)
+        ("Z", "E", 3), ("Z", "F", 2),
+        ("Z", "C", 1), ("F", "E", 1),
+        ("F", "C", 1), ("E", "D", 2),
+        ("C", "B", 5), ("D", "G", 1),
+        ("B", "G", 1), ("B", "A", 4),
+        ("G", "A", 2), ("D", "A", 5)
     ]
 
-def start_graph():
-    graph = nx.Graph()
-    graph.add_weighted_edges_from(data())
-    return graph
-
 def draw_graph(graph):
-    pos = nx.shell_layout(graph)
-    nx.draw_networkx_nodes(graph, pos, node_color="red", node_size=1000, alpha=0.9)
-    nx.draw_networkx_labels(graph, pos, font_size=10, font_family="sans-serif")
-    labels = nx.get_edge_attributes(graph, "weight")
-    nx.draw_networkx_edges(graph, pos, edge_color="black", width=3)
-    nx.draw_networkx_edge_labels(graph, pos, edge_labels=labels)
-    plt.gcf().canvas.manager.set_window_title("Exercise 1")
-    plt.suptitle("Graph: Dijkstra's path algorithms", fontsize=12, fontweight='bold')
-    plt.axis("off")
-    plt.show()
+    style = GraphStyle(node_color=theme_palette[2]["node"], edge_color=theme_palette[2]["edge"])
+    style.draw_graph_pyvis(graph, "Exercise1 Dijkstra Graph")
 
-def print_info(graph):
+def display_graph_info(graph):
     print("All NODES:")
     print(graph.nodes())
     print("Number of NODES:", graph.number_of_nodes())
@@ -56,6 +44,6 @@ def print_info(graph):
     print()
 
 def run_exercise_1():
-    graph = start_graph()
+    graph = build_graph(get_graph_data())
     draw_graph(graph)
-    print_info(graph)
+    display_graph_info(graph)

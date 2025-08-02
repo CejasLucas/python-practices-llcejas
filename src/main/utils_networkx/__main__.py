@@ -5,7 +5,6 @@ from src.main.utils_networkx.exercise3 import run_exercise_3
 from src.main.utils_networkx.exercise4 import run_exercise_4
 from src.main.utils_networkx.exercise5 import run_exercise_5
 from src.main.utils_networkx.exercise6 import run_exercise_6
-from src.main.utils_networkx.exercise7 import run_exercise_7
 from colorama import Fore, Style
 
 def get_networkx_exercises():
@@ -15,8 +14,7 @@ def get_networkx_exercises():
         3: run_exercise_3,
         4: run_exercise_4,
         5: run_exercise_5,
-        6: run_exercise_6,
-        7: run_exercise_7
+        6: run_exercise_6
     }
 
 def get_networkx_menu_text():

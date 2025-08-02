@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/style_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/minimum_spanning_tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/original_graph.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise7.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,12 @@
       <workItem from="1751822962456" duration="2667000" />
       <workItem from="1752317236315" duration="10802000" />
       <workItem from="1752855744678" duration="3701000" />
-      <workItem from="1752944853912" duration="6032000" />
+      <workItem from="1752944853912" duration="6173000" />
+      <workItem from="1753020811006" duration="3545000" />
+      <workItem from="1753141632563" duration="4727000" />
+      <workItem from="1753316654867" duration="5958000" />
+      <workItem from="1753367437771" duration="7000" />
+      <workItem from="1754161961669" duration="4807000" />
     </task>
     <servers />
   </component>
