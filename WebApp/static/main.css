@@ -1,0 +1,73 @@
+/* Estilo base del sitio */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #0a0a0a;
+    color: #e0fafa;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #66fcff;
+}
+
+/* Diseño en cuadrícula para los módulos */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+/* Tarjetas de módulo */
+.modulo {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 255, 255, 0.1);
+}
+
+.modulo:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 255, 255, 0.2);
+}
+
+/* Enlaces dentro de los módulos */
+.modulo a {
+    color: #00ffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.modulo a:hover {
+    text-decoration: underline;
+    color: #66fcff;
+}

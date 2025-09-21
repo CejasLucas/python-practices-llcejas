@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #0a0a0a;
+    color: #e0fafa;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Contenedor */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #00ffff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #66fcff;
+}
+
+/* Lista de ejercicios */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+li {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 255, 255, 0.1);
+}
+
+li:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-3px);
+}
+
+/* Enlaces */
+a {
+    color: #00ffff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+li a {
+    display: block;
+}
+
+a:hover {
+    color: #66fcff;
+    text-decoration: underline;
+}
+
+/* Enlace de volver */
+.return-link {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    color: #00ffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.return-link:hover {
+    color: #66fcff;
+    text-decoration: underline;
+}

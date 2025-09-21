@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ modulo.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='module.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ modulo.name }} practice</h1>
+
+        {% if submenu %}
+            <h2>Exercises</h2>
+            <ul>
+                {% for item in submenu %}
+                    <li>
+                        <a href="{{ url_for('main.run_exercise', file_name=modulo.file_name, exercise_id=item.id) }}">
+                            {{ item.id }} - {{ item.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No hay ejercicios disponibles.</p>
+        {% endif %}
+
+        <a class="return-link" href="{{ url_for('main.main_menu') }}">← Volver al menú principal</a>
+    </div>
+</body>
+</html>
