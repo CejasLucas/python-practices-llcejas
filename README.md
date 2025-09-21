@@ -58,7 +58,7 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 │   └── main/
 │       ├── __utils__/         # Funciones auxiliares reutilizables
 │       │   ├── __init__.py
-│       │   └── builder.py
+│       │   └── ExerciseBuilder.py
 │       ├── conditionals/
 │       ├── cycle_for/
 │       ├── cycle_while/
