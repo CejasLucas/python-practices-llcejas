@@ -1,6 +1,11 @@
 def run_exercise_2():
+    day_input = yield "Enter a number from 1 to 7 to get the day of the week: "
 
-    day = int(input("Enter a number from 1 to 7 to get the day of the week: "))
+    try:
+        day = int(day_input.strip())
+    except ValueError:
+        yield "\n❌ Invalid input: please enter a number."
+        return
 
     days = {
         1: "Monday",
@@ -13,6 +18,7 @@ def run_exercise_2():
     }
 
     if day in days:
-        print(f"The day {day} is {days[day]}\n")
+        yield f"\n✅ The day {day} is {days[day]}.\n"
     else:
-        print("That day does not exist.\n")
+        yield "\n❌ That day does not exist.\n"
+    return

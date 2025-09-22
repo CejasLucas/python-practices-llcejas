@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ modulo.name }} - Exercise {{ exercise_id }}</title>
+
+    <!-- xterm.css y xterm.js -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='xterm/xterm.css') }}">
+    <script src="{{ url_for('static', filename='xterm/xterm.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='terminal.css') }}">
+</head>
+<body>
+    <div id="overlay">
+        <div id="popup">
+            <div id="terminal"></div>
+            <button id="close-btn" style="display:none;">Close</button>
+        </div>
+    </div>
+
+    <!-- Variables dinámicas para terminal.js -->
+    <script>
+        window.exerciseData = {
+            fileName: "{{ file_name|e }}",
+            exerciseId: Number("{{ exercise_id }}")
+        };
+    </script>
+
+    <!-- JS externo -->
+    <script src="{{ url_for('static', filename='terminal.js') }}"></script>
+</body>
+</html>

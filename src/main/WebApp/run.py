@@ -1,6 +1,7 @@
-from WebApp import create_app
+from WebApp import create_app, socketio
+import WebApp.socketio_handlers
 
 app = create_app()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    socketio.run(app, debug=True)

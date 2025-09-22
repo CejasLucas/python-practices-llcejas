@@ -1,10 +1,19 @@
 def run_exercise_1():
-    x = float(input("Enter the first number: "))
-    y = float(input("Enter the second number: "))
+    x_input = yield "Please enter the first number: "
+    y_input = yield "Please enter the second number: "
+
+    try:
+        x = float(x_input.strip())
+        y = float(y_input.strip())
+    except ValueError:
+        yield "\n❌ Invalid input: make sure to type numbers only."
+        return
+    yield "\n🔎 Comparing the two numbers..."
 
     if x < y:
-        print(f"{x} is less than {y}\n")
+        yield f"✅ Result: {x} is smaller than {y}.\n"
     elif y < x:
-        print(f"{y} is less than {x}\n")
+        yield f"✅ Result: {y} is smaller than {x}.\n"
     else:
-        print(f"{x} and {y} are equal\n")
+        yield f"✅ Result: both numbers are equal ({x}).\n"
+    return

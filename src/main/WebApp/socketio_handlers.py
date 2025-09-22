@@ -1,11 +1,9 @@
-
-from flask import Flask, request
-from flask_socketio import SocketIO, emit
+from flask import request
+from flask_socketio import emit
+from WebApp import socketio
 from Modules.__modules__ import menu
 import importlib
 
-app = Flask(__name__)
-socketio = SocketIO(app)
 clients = {}
 
 @socketio.on('start_exercise')

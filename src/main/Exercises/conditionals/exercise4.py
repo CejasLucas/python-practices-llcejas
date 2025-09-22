@@ -1,13 +1,13 @@
 def run_exercise_4():
+    character_input = yield "Enter a character: "
+    character = character_input.strip()
 
-    character = input("Enter a character: ")
-
-    if len(character) == 1 :
+    if len(character) == 1:
         vowels = "AEIOUaeiou"
         if character in vowels:
-            print(f"{character} is a vowel.\n")
+            yield f"\n✅ {character} is a vowel.\n"
         else:
-            print("Not a vowel.\n")
+            yield "\n❌ Not a vowel.\n"
     else:
-        print(print("Error: Please enter only one character.\n"))
-        return
+        yield "\n❌ Error: Please enter only one character.\n"
+    return
