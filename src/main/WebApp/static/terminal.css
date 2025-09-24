@@ -1,6 +1,3 @@
-/* ==============================
-   Body y overlay
-   ============================== */
 body {
     margin: 0;
     font-family: sans-serif;
@@ -20,9 +17,6 @@ body {
     transition: opacity 0.3s ease;
 }
 
-/* ==============================
-   Ventana emergente más grande
-   ============================== */
 #popup {
     background-color: #000;
     border-radius: 12px;
@@ -37,9 +31,6 @@ body {
     position: relative;
 }
 
-/* ==============================
-   Terminal ocupa el popup
-   ============================== */
 #terminal {
     flex: 1;
     border-radius: 8px;
@@ -50,27 +41,11 @@ body {
     font-size: 1.1em;
 }
 
-/* ==============================
-   Botón cerrar en la parte inferior derecha
-   ============================== */
-#close-btn {
-    position: absolute;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    bottom: 20px;
-    right: 20px;
-    background: #00bcd4;
-    border: none;
-    color: white;
-    padding: 6px 12px;
+#graphics img {
+    max-width: 100%;
+    margin: 10px 0;
+    border: 1px solid #00ffff;
     border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-    display: none; /* mostrar con JS cuando haga falta */
-}
-
-#close-btn:hover {
-    background: #0097a7;
 }
 
 /* ==============================
@@ -95,7 +70,26 @@ body {
     background: #33ffff;
 }
 
-#terminal {
-    scrollbar-width: thin;
-    scrollbar-color: #00ffff #000;
+
+/* ==============================
+   Botón cerrar en la parte inferior derecha
+   ============================== */
+#close-btn {
+    position: absolute;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    bottom: 20px;
+    right: 20px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    display: none; /* mostrar con JS cuando haga falta */
+}
+
+#close-btn:hover {
+    background: #0097a7;
 }

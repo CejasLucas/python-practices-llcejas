@@ -21,23 +21,19 @@ def run_exercise_1():
     country_values = [value for value, color in PIB_2020.values()]
     palette = [color for value, color in PIB_2020.values()]
 
-    # Create bar chart
-    plt.figure(figsize=(14, 7))
+    plt.figure(figsize=(16, 9), constrained_layout=True)
     bars = plt.bar(country_names, country_values, color=palette)
 
-    # Add data labels on top of bars
     for bar in bars:
         height = bar.get_height()
         plt.text(bar.get_x() + bar.get_width() / 2, height,
-                 f'{height:,.0f}', ha='center', va='bottom', fontsize=8, rotation=0)
+                 f'{height:,.0f}', ha='center', va='bottom',
+                 fontsize=8, rotation=0)
 
-    # Titles and labels
-    #plt.title('GDP of Latin American Countries in 2020 (Million USD)', fontsize=16, pad=20)
-    plt.gcf().canvas.manager.set_window_title("Latin American Countries in 2020")
+    # Labels
     plt.xlabel('Country', fontsize=12)
     plt.ylabel('GDP (Million USD)', fontsize=12)
     plt.xticks(rotation=45, ha='right')
 
     plt.grid(axis='y', linestyle='--', alpha=0.7)
-    plt.tight_layout()
     plt.show()

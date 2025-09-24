@@ -44,21 +44,25 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    // --- Salida de texto normal ---
     socket.on("output", data => {
         term.write(data);
         term.prompt();
     });
 
-    // --- pegá este bloque para gráficos ---
+    // --- Salida de gráficos ---
     socket.on("graph", data => {
+        const graphicsDiv = document.getElementById("graphics");
         const img = document.createElement("img");
+
         img.src = "data:image/png;base64," + data;
-        img.style.maxWidth = "600px";
-        img.style.display = "block";
-        img.style.margin = "10px 0";
-        document.getElementById("terminal").appendChild(img);
+        graphicsDiv.appendChild(img);
+
+        const wrapper = document.getElementById("terminal-wrapper");
+        wrapper.scrollTop = wrapper.scrollHeight;
     });
 
+    // --- Fin del ejercicio ---
     socket.on("end", () => {
         finished = true;
         term.write("\r\n[✔] Exercise finished. Press Enter or Close button.\r\n");
@@ -66,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (closeBtn) closeBtn.style.display = "inline-block";
     });
 
+    // --- Función cerrar popup ---
     function closePopup() {
         const overlay = document.getElementById("overlay");
         overlay.style.opacity = 0;
