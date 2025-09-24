@@ -16,19 +16,16 @@
     <div id="overlay">
         <div id="popup">
             <div id="terminal"></div>
-            <button id="close-btn" style="display:none;">Close</button>
+            <button id="close-btn">Close</button>
         </div>
     </div>
 
-    <!-- Variables dinámicas para terminal.js -->
     <script>
         window.exerciseData = {
             fileName: "{{ file_name|e }}",
             exerciseId: Number("{{ exercise_id }}")
         };
     </script>
-
-    <!-- JS externo -->
     <script src="{{ url_for('static', filename='terminal.js') }}"></script>
 </body>
 </html>

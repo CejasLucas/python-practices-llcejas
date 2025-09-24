@@ -3,20 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const term = new Terminal({
         fontFamily: 'Fira Mono, monospace',
         fontSize: 14,
-        theme: {
-            background: '#000000',
-            foreground: '#00ffff',
-            cursor: '#00ffff'
-        }
+        theme: { background: '#000000', foreground: '#00ffff', cursor: '#00ffff' }
     });
 
     const socket = io();
 
     const terminalDiv = document.getElementById('terminal');
-    if (!terminalDiv) {
-        console.error("Error: #terminal div not found");
-        return;
-    }
+    if (!terminalDiv) return console.error("Error: #terminal div not found");
     term.open(terminalDiv);
 
     const fileName = window.exerciseData?.fileName || "example.txt";
@@ -36,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e === '\r') closePopup();
             return;
         }
-
         if (e === '\r') {
             socket.emit("input", inputBuffer);
             term.write("\r\n");
@@ -59,16 +51,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     socket.on("end", () => {
         finished = true;
-        term.write("\r\n[✔] Exercise finished. Press Enter to return to the menu.\r\n");
+        term.write("\r\n[✔] Exercise finished. Press Enter or Close button.\r\n");
         const closeBtn = document.getElementById("close-btn");
         if (closeBtn) closeBtn.style.display = "inline-block";
     });
 
     function closePopup() {
-        window.location.href = "/";
+        const overlay = document.getElementById("overlay");
+        overlay.style.opacity = 0; // fade out
+        setTimeout(() => {
+            overlay.style.display = "none";
+            window.location.href = "/"; // redirige correctamente
+        }, 300);
     }
 
     const closeBtn = document.getElementById("close-btn");
     if (closeBtn) closeBtn.addEventListener("click", closePopup);
-
 });

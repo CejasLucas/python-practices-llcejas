@@ -18,9 +18,8 @@ def module_page(file_name):
         module_path, func_name = modulo['submenu_func'].rsplit('.', 1)
         imported_module = importlib.import_module(module_path)
         submenu_func = getattr(imported_module, func_name)
-
         exercises = submenu_func()
-        submenu = [{"id": int(k), "name": v["name"]} for k, v in exercises.items()]
+        submenu = [{"id": int(k), "name": v["name"]} for k,v in exercises.items()]
 
     return render_template('module.html', modulo=modulo, submenu=submenu)
 

@@ -1,48 +1,45 @@
-from flask import request
-from flask_socketio import emit
-from WebApp import socketio
-from Modules.__modules__ import menu
+import sys
+import io
+import queue
 import importlib
 import builtins
+import threading
+
+from flask import request
+from WebApp import socketio
+from flask_socketio import emit
+from Modules.__modules__ import menu
 
 clients = {}
 
-def exercise_runner(func):
-    output_buffer = []
-    waiting_for_input = [None]
-
+def run_exercise(func, sid, input_queue, output_queue):
     real_input = builtins.input
     real_print = builtins.print
+    real_stdout = sys.stdout
 
-    # Redirigir print
-    builtins.print = lambda *args, **kwargs: output_buffer.append(" ".join(map(str, args)) + "\n")
+    sys.stdout = io.StringIO()
 
-    # Redirigir input
-    def mock_input(prompt=""):
+    def fake_input(prompt=""):
         if prompt:
-            output_buffer.append(prompt)
-        # Primero enviamos cualquier output pendiente
-        if output_buffer:
-            out = "".join(output_buffer)
-            output_buffer.clear()
-            val = yield out  # yield el prompt al frontend
-        else:
-            val = yield
-        # Esperamos a que el cliente mande input
-        waiting_for_input[0] = None
-        while waiting_for_input[0] is None:
-            waiting_for_input[0] = (yield)
-        return waiting_for_input[0]
+            print(prompt, end="")
+        output_queue.put(sys.stdout.getvalue())
+        sys.stdout.seek(0)
+        sys.stdout.truncate(0)
+        return input_queue.get()
 
-    builtins.input = lambda prompt="": (yield from mock_input(prompt))
+    builtins.input = fake_input
+    builtins.print = lambda *args, **kwargs: real_print(*args, file=sys.stdout, **kwargs)
 
     try:
         func()
-        if output_buffer:
-            yield "".join(output_buffer)
+        output_queue.put(sys.stdout.getvalue())
+    except Exception as e:
+        output_queue.put(f"[ERROR] {e}\n")
     finally:
         builtins.input = real_input
         builtins.print = real_print
+        sys.stdout = real_stdout
+        output_queue.put(None)
 
 
 @socketio.on("start_exercise")
@@ -65,38 +62,36 @@ def start_exercise(data):
         emit("output", "Ejercicio inválido\r\n")
         return
 
-    # Inicializamos cliente
-    clients[request.sid] = {"input_ready": False, "input_value": None}
+    sid = request.sid
+    input_queue = queue.Queue()
+    output_queue = queue.Queue()
+    clients[sid] = {"input_queue": input_queue, "output_queue": output_queue}
 
-    # Creamos generador
-    gen = exercise_runner(exercise["func"])
-    clients[request.sid]["gen"] = gen
+    # hilo que ejecuta el ejercicio
+    threading.Thread(
+        target=run_exercise,
+        args=(exercise["func"], sid, input_queue, output_queue),
+        daemon=True
+    ).start()
 
-    # Ejecutamos primer yield (prints iniciales o prompt)
-    try:
-        output = next(gen)
-        if output:
-            emit("output", output)
-    except StopIteration:
-        emit("end")
-        del clients[request.sid]
+    # hilo que manda output al cliente
+    def streamer():
+        while True:
+            msg = output_queue.get()
+            if msg is None:
+                socketio.emit("end", room=sid)
+                break
+            if msg:
+                socketio.emit("output", msg, room=sid)
+
+    threading.Thread(target=streamer, daemon=True).start()
+
 
 @socketio.on("input")
 def handle_input(data):
     sid = request.sid
     client = clients.get(sid)
-    if not client or "gen" not in client:
+    if not client:
         emit("output", "No hay ejercicio en ejecución.\r\n")
         return
-
-    # Guardamos input del usuario
-    client["input_value"] = data.strip()
-    client["input_ready"] = True
-
-    try:
-        output = next(client["gen"])
-        if output:
-            emit("output", output)
-    except StopIteration:
-        emit("end")
-        del clients[sid]
+    client["input_queue"].put(data.strip())

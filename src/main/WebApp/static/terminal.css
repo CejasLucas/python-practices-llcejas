@@ -4,43 +4,73 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #000; /* negro */
+    background-color: #000;
 }
 
 #overlay {
     position: fixed;
     top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 /* ==============================
-   Ventana emergente
+   Ventana emergente más grande
    ============================== */
 #popup {
     background-color: #000;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
-    padding: 10px;
-    width: 600px;
-    height: 400px;
+    padding: 12px;
+    width: 90%;
+    height: 90%;
+    max-width: 1200px;
+    max-height: 800px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 /* ==============================
-   Terminal
+   Terminal ocupa el popup
    ============================== */
 #terminal {
     flex: 1;
     border-radius: 8px;
     overflow: hidden;
-    border: 2px solid #00ffff;         /* borde cian */
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6); /* sombra cian */
-    padding: 18px;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+    padding: 12px;
+    font-size: 1.1em;
+}
+
+/* ==============================
+   Botón cerrar en la parte inferior derecha
+   ============================== */
+#close-btn {
+    position: absolute;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    bottom: 20px;
+    right: 20px;
+    background: #00bcd4;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    display: none; /* mostrar con JS cuando haga falta */
+}
+
+#close-btn:hover {
+    background: #0097a7;
 }
 
 /* ==============================
@@ -52,41 +82,20 @@ body {
 }
 
 #terminal::-webkit-scrollbar-track {
-    background: #000;        /* negro */
+    background: #000;
     border-radius: 8px;
 }
 
 #terminal::-webkit-scrollbar-thumb {
-    background: #00ffff;     /* cian */
+    background: #00ffff;
     border-radius: 8px;
 }
 
 #terminal::-webkit-scrollbar-thumb:hover {
-    background: #33ffff;     /* cian más claro */
+    background: #33ffff;
 }
 
-/* Firefox scrollbar */
 #terminal {
     scrollbar-width: thin;
     scrollbar-color: #00ffff #000;
-}
-
-/* ==============================
-   Botón cerrar
-   ============================== */
-#close-btn {
-    display: none;
-    background: #00bcd4;
-    border: none;
-    color: white;
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 8px;
-    align-self: flex-end;
-    font-weight: bold;
-}
-
-#close-btn:hover {
-    background: #0097a7;
 }
