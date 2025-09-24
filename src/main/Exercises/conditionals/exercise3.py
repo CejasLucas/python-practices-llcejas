@@ -1,6 +1,6 @@
 def run_exercise_3():
-    yield "R = RED Party\nG = GREEN Party\nB = BLUE Party\n"
-    party_input = yield "Choose a letter: "
+    print("R = RED Party\nG = GREEN Party\nB = BLUE Party\n")
+    party_input = input("Choose a letter: ")
     party = party_input.strip().upper()
 
     parties = {
@@ -10,7 +10,6 @@ def run_exercise_3():
     }
 
     if party in parties:
-        yield f"\n✅ You voted for the {parties[party]} party.\n"
+        print(f"\n✅ You voted for the {parties[party]} party.\n")
     else:
-        yield "\n❌ Invalid option.\n"
-    return
+        print("\n❌ Invalid option.\n")
