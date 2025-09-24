@@ -1,6 +1,6 @@
 def run_exercise_1():
-    x_input = input("Please enter the first number: ")
-    y_input = input("Please enter the second number: ")
+    x_input = input("\nPlease enter the first number: ")
+    y_input = input("\nPlease enter the second number: ")
 
     try:
         x = float(x_input.strip())
@@ -12,8 +12,9 @@ def run_exercise_1():
     print("\n🔎 Comparing the two numbers...")
 
     if x < y:
-        print(f"✅ Result: {x} is smaller than {y}.\n")
+        print(f"\nResult: {x} is smaller than {y}.")
     elif y < x:
-        print(f"✅ Result: {y} is smaller than {x}.\n")
+        print(f"\nResult: {y} is smaller than {x}.")
     else:
-        print(f"✅ Result: both numbers are equal ({x}).\n")
+        print(f"\nResult: both numbers are equal ({x}).")
+    return

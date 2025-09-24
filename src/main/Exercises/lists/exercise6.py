@@ -7,8 +7,8 @@ def run_exercise_6():
     for i in range(len(first_word_list) - 1, -1, -1):
         second_word_list.append(first_word_list[i])
 
-    print("Original list:")
+    print("\nOriginal list:")
     print(first_word_list)
 
-    print("Reversed list:")
+    print("\nReversed list:")
     print(second_word_list)

@@ -11,7 +11,7 @@ fruits_per_kilogram = {
 
 def is_validate_kilogram(kilogram):
     if kilogram < 0:
-        print("Entering a kilogram in negative is invalid")
+        print("\nEntering a kilogram in negative is invalid")
         return False
     else:
         return True
@@ -19,22 +19,22 @@ def is_validate_kilogram(kilogram):
 
 def is_validate_name(name):
     if name not in fruits_per_kilogram:
-        print("Entering an empty fruit name is invalid.")
+        print("\nEntering an empty fruit name is invalid.")
         return False
     elif name == "":
-        print(f"The fruit '{name}' is not in the list.")
+        print(f"\nThe fruit '{name}' is not in the list.")
         return False
     else:
         return True
 
 
 def run_exercise_2():
-    print(f"Available fruits: {', '.join(fruits_per_kilogram.keys())}")
+    print(f"\nAvailable fruits: {', '.join(fruits_per_kilogram.keys())}")
 
     while True:
-        fruit_name = input("Enter the name of the fruit: ").lower()
+        fruit_name = input("\nEnter the name of the fruit: ").lower()
 
-        fruit_kilogram = float(input("Enter the number of kilos sold of that fruit: "))
+        fruit_kilogram = float(input("\nEnter the number of kilos sold of that fruit: "))
 
         if not is_validate_kilogram(fruit_kilogram): break
 
@@ -42,5 +42,5 @@ def run_exercise_2():
 
         price_per_kilogram = fruits_per_kilogram[fruit_name]
 
-        print(f"The total price for {fruit_kilogram} kg of {fruit_name} is: {price_per_kilogram * fruit_kilogram} units.")
-        print("-----------------------------------------------------------")
+        print(f"\nThe total price for {fruit_kilogram} kg of {fruit_name} is: {price_per_kilogram * fruit_kilogram} units.")
+        print("\n-----------------------------------------------------------")

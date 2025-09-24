@@ -8,4 +8,4 @@ def run_exercise_3():
     if len(first_set) == 0: first_set.add("∅")
     if len(second_set) == 0: second_set.add("∅")
     if len(difference_of_sets) == 0: difference_of_sets.add("∅")
-    print(f"The difference of the sets {first_set} and {second_set} is {difference_of_sets}")
+    print(f"\nThe difference of the sets {first_set} and {second_set} is {difference_of_sets}")

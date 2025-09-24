@@ -10,19 +10,19 @@ def run_exercise_3():
 
     notes = list()
 
-    print("The cut-off condition is given if a grade is entered outside the range [0,10]")
+    print("\nThe cut-off condition is given if a grade is entered outside the range [0,10]")
 
-    name_student = input("Enter the student's name: ")
+    name_student = input("\nEnter the student's name: ")
 
-    note = float(input(f"Enter note [{index}] for {name_student}: "))
+    note = float(input(f"\nEnter note [{index}] for {name_student}: "))
 
     while -1 < note < 11:
         index += 1
         notes.append(note)
         students[name_student] = notes
-        note = float(input(f"Enter note [{index}] for {name_student}: "))
+        note = float(input(f"\nEnter note [{index}] for {name_student}: "))
 
     print("\nFinal average of the students loaded.")
     for student, grades in students.items():
         average = sum(grades) / len(grades)
-        print(f"Grade average: {average:.2f} | Student name: {student}")
+        print(f"\nGrade average: {average:.2f} | Student name: {student}")

@@ -1,11 +1,11 @@
 def run_exercise_8():
     list_of_numbers = []
     while True:
-        number = int(input("Enter an even number: "))
+        number = int(input("\nEnter an even number: "))
         if number % 2 == 0:
-            print(f"Great, the number {number} is even")
+            print(f"\nGreat, the number {number} is even")
             list_of_numbers.append(number)
         else:
-            print(f"This is an odd number {number}")
+            print(f"\nThis is an odd number {number}")
             break
-    print(f"List of entered even numbers: {list_of_numbers}")
+    print(f"\nList of entered even numbers: {list_of_numbers}")

@@ -49,6 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
         term.prompt();
     });
 
+    // --- pegá este bloque para gráficos ---
+    socket.on("graph", data => {
+        const img = document.createElement("img");
+        img.src = "data:image/png;base64," + data;
+        img.style.maxWidth = "600px";
+        img.style.display = "block";
+        img.style.margin = "10px 0";
+        document.getElementById("terminal").appendChild(img);
+    });
+
     socket.on("end", () => {
         finished = true;
         term.write("\r\n[✔] Exercise finished. Press Enter or Close button.\r\n");
@@ -58,10 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function closePopup() {
         const overlay = document.getElementById("overlay");
-        overlay.style.opacity = 0; // fade out
+        overlay.style.opacity = 0;
         setTimeout(() => {
             overlay.style.display = "none";
-            window.location.href = "/"; // redirige correctamente
+            window.location.href = "/";
         }, 300);
     }
 

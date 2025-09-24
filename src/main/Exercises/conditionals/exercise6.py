@@ -30,7 +30,7 @@ def run_exercise_6():
 
 
 def level():
-    response = input("Were there exams that day? Enter [Y] to confirm: ")
+    response = input("\nWere there exams that day? Enter [Y] to confirm: ")
     if response.strip().upper() == "Y":
         approved_input = input("Enter the number of students who passed = ")
         disapproved_input = input("Enter the number of failed students = ")
@@ -52,7 +52,7 @@ def level():
 
 
 def practical():
-    response_input = input("Enter the attendance percentage between 0 and 100: ")
+    response_input = input("\nEnter the attendance percentage between 0 and 100: ")
     try:
         response = int(response_input.strip())
     except ValueError:
@@ -69,8 +69,8 @@ def practical():
 
 
 def queries():
-    number_input = input("Enter the number of students who attended: ")
-    value_input = input("Enter the price per consultation: ")
+    number_input = input("\nEnter the number of students who attended: ")
+    value_input = input("\nEnter the price per consultation: ")
 
     try:
         number_of_student = int(number_input.strip())

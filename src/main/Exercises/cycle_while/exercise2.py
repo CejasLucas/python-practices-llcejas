@@ -1,9 +1,9 @@
 def run_exercise_2():
-    first = int(input("Enter the first integer: "))
-    second = int(input("Enter the second integer: "))
+    first = int(input("\nEnter the first integer: "))
+    second = int(input("\nEnter the second integer: "))
 
     while first > second:
         print("The second number must be greater than the first number entered.")
-        second = int(input(f"First number entered {first}. Enter the second integer: "))
+        second = int(input(f"\nFirst number entered {first}. Enter the second integer: "))
 
-    print(f"Verified: First {first} < Second {second}")
+    print(f"\nVerified: First {first} < Second {second}")

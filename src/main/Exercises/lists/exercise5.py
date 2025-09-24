@@ -8,5 +8,5 @@ def run_exercise_5():
         if first_word_list[word] in second_word_list:
             del first_word_list[word]
 
-    print("Updated first list (after deletions):")
+    print("\nUpdated first list (after deletions):")
     print(first_word_list)

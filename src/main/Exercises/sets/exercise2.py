@@ -8,4 +8,4 @@ def run_exercise_2():
     if len(first_set) == 0: first_set.add("∅")
     if len(second_set) == 0: second_set.add("∅")
     if len(union_of_sets) == 0: union_of_sets.add("∅")
-    print(f"The union of the sets {first_set} and {second_set} is {union_of_sets}")
+    print(f"\nThe union of the sets {first_set} and {second_set} is {union_of_sets}")

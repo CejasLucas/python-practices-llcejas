@@ -23,13 +23,13 @@ def run_exercise_4():
 def convert_to_set():
     first_list = create_list("first")
     second_list = create_list("second")
-    print(f"First list before being converted to a set: {first_list}")
-    print(f"Second list before being converted to a set: {second_list}\n")
-    print(f"First list converted to set: {set(first_list)}")
-    print(f"Second list converted to set: {set(second_list)}")
+    print(f"\nFirst list before being converted to a set: {first_list}")
+    print(f"\nSecond list before being converted to a set: {second_list}")
+    print(f"\nFirst list converted to set: {set(first_list)}")
+    print(f"\nSecond list converted to set: {set(second_list)}")
 
 def equality():
     first_set = create_set("first")
     second_set = create_set("second")
     validate = first_set == second_set
-    print(f"Are sets {first_set} and {second_set} equal? The answer is {validate}")
+    print(f"\nAre sets {first_set} and {second_set} equal? The answer is {validate}")

@@ -7,25 +7,25 @@ phone_book = {
 
 def is_valid_input(data, message):
     if data == "":
-        print(f"Invalid {message}.")
+        print(f"\nInvalid {message}.")
         return False
     return True
 
 
 def run_exercise_1():
-    print("Leave the name empty and press Enter to finish.")
+    print("\nLeave the name empty and press Enter to finish.")
 
     while True:
-        username = input("Contact name: ").strip()
+        username = input("\nContact name: ").strip()
 
-        user_telephone = input("Contact phone number: ").strip()
+        user_telephone = input("\nContact phone number: ").strip()
 
         if not is_valid_input(username, "username"): break
 
         if not is_valid_input(user_telephone, "phone number"): break
 
         if not user_telephone.isdigit():
-            print("Phone number must contain only digits.")
+            print("\nPhone number must contain only digits.")
             break
 
         print("-----------------------------------------")

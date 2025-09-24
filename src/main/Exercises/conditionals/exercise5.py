@@ -1,5 +1,5 @@
 def run_exercise_5():
-    year_input = input("Enter a year: ")
+    year_input = input("\nEnter a year: ")
     try:
         year = int(year_input.strip())
     except ValueError:
@@ -10,3 +10,4 @@ def run_exercise_5():
         print(f"\n✅ The year {year} is a Leap Year.\n")
     else:
         print(f"\n❌ The year {year} is not a Leap Year.\n")
+    return

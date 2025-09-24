@@ -1,10 +1,10 @@
 def run_exercise_2():
-    day_input = input("Enter a number from 1 to 7 to get the day of the week: ")
+    day_input = input("\nEnter a number from 1 to 7 to get the day of the week: ")
 
     try:
         day = int(day_input.strip())
     except ValueError:
-        print("\n❌ Invalid input: please enter a number.")
+        print("\n❌ Invalid input: please enter a number.\n")
         return
 
     days = {
@@ -21,3 +21,4 @@ def run_exercise_2():
         print(f"\n✅ The day {day} is {days[day]}.\n")
     else:
         print("\n❌ That day does not exist.\n")
+    return

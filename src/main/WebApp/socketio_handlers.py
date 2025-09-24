@@ -1,18 +1,26 @@
 import sys
 import io
 import queue
+import threading
+import matplotlib.pyplot as plt
+import base64
+from flask import request
+from flask_socketio import emit
+from WebApp import socketio
+from Modules.__modules__ import menu
 import importlib
 import builtins
-import threading
-
-from flask import request
-from WebApp import socketio
-from flask_socketio import emit
-from Modules.__modules__ import menu
 
 clients = {}
 
+# -----------------------
+# Ejecución de ejercicios
+# -----------------------
 def run_exercise(func, sid, input_queue, output_queue):
+    """
+    Ejecuta un ejercicio Python clásico con input/print,
+    redirigiendo stdout al frontend via output_queue.
+    """
     real_input = builtins.input
     real_print = builtins.print
     real_stdout = sys.stdout
@@ -20,11 +28,18 @@ def run_exercise(func, sid, input_queue, output_queue):
     sys.stdout = io.StringIO()
 
     def fake_input(prompt=""):
+        # 1️⃣ Enviar todo lo que haya en stdout antes del prompt
+        out = sys.stdout.getvalue()
+        if out:
+            output_queue.put(out.replace("\n","\r\n"))
+            sys.stdout.seek(0)
+            sys.stdout.truncate(0)
+
+        # 2️⃣ Enviar el prompt
         if prompt:
-            print(prompt, end="")
-        output_queue.put(sys.stdout.getvalue())
-        sys.stdout.seek(0)
-        sys.stdout.truncate(0)
+            output_queue.put((prompt).replace("\n","\r\n"))
+
+        # 3️⃣ Esperar input del cliente
         return input_queue.get()
 
     builtins.input = fake_input
@@ -32,21 +47,51 @@ def run_exercise(func, sid, input_queue, output_queue):
 
     try:
         func()
-        output_queue.put(sys.stdout.getvalue())
+        # enviar cualquier print restante
+        remaining = sys.stdout.getvalue()
+        if remaining:
+            output_queue.put(remaining.replace("\n","\r\n"))
     except Exception as e:
-        output_queue.put(f"[ERROR] {e}\n")
+        output_queue.put(f"[ERROR] {e}\r\n")
     finally:
         builtins.input = real_input
         builtins.print = real_print
         sys.stdout = real_stdout
-        output_queue.put(None)
+        output_queue.put(None)  # marca de fin
 
+# -----------------------
+# Wrapper para gráficos
+# -----------------------
+def run_exercise_with_graph(func, sid, input_queue, output_queue):
+    """
+    Intercepta plt.show() para enviar gráficos como base64 al cliente.
+    """
+    real_show = plt.show
 
+    def fake_show():
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png')
+        plt.close()
+        buf.seek(0)
+        img_b64 = base64.b64encode(buf.read()).decode('utf-8')
+        socketio.emit("graph", img_b64, room=sid)
+
+    plt.show = fake_show
+
+    # ejecutar el ejercicio
+    run_exercise(func, sid, input_queue, output_queue)
+
+    plt.show = real_show
+
+# -----------------------
+# Handlers de SocketIO
+# -----------------------
 @socketio.on("start_exercise")
 def start_exercise(data):
     file_name = data.get("file_name")
     exercise_id = int(data.get("exercise_id"))
 
+    # Buscar ejercicio
     modulo = next((m for m in menu() if m["file_name"] == file_name), None)
     if not modulo or "submenu_func" not in modulo:
         emit("output", "Ejercicio no encontrado\r\n")
@@ -67,14 +112,14 @@ def start_exercise(data):
     output_queue = queue.Queue()
     clients[sid] = {"input_queue": input_queue, "output_queue": output_queue}
 
-    # hilo que ejecuta el ejercicio
+    # hilo que ejecuta el ejercicio con gráficos
     threading.Thread(
-        target=run_exercise,
+        target=run_exercise_with_graph,
         args=(exercise["func"], sid, input_queue, output_queue),
         daemon=True
     ).start()
 
-    # hilo que manda output al cliente
+    # hilo que envía output al cliente
     def streamer():
         while True:
             msg = output_queue.get()
@@ -85,7 +130,6 @@ def start_exercise(data):
                 socketio.emit("output", msg, room=sid)
 
     threading.Thread(target=streamer, daemon=True).start()
-
 
 @socketio.on("input")
 def handle_input(data):

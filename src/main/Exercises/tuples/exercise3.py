@@ -17,31 +17,31 @@ def run_exercise_3():
             4: number_of_passengers_country
         }
         if number == 0:
-            print("You have finished the program")
+            print("\nYou have finished the program")
             break
         elif number in levels:
             levels[number]()
         else:
-            print("Invalid option, please re-enter a number")
+            print("\nInvalid option, please re-enter a number")
 
 
 def add_passenger():
-    dni = int(input("Enter the passenger identification number: "))
-    city = input("Enter the passenger's destination city: ")
-    name = input("Enter the passenger's full name: ")
+    dni = int(input("\nEnter the passenger identification number: "))
+    city = input("\nEnter the passenger's destination city: ")
+    name = input("\nEnter the passenger's full name: ")
     passenger = (dni, city, name)
     list_passengers.append(passenger)
 
 
 def add_city():
-    city = input("Enter the name of the city: ")
-    country = input("Enter the name of the country: ")
+    city = input("\nEnter the name of the city: ")
+    country = input("\nEnter the name of the country: ")
     city_country = (city, country)
     list_cities.append(city_country)
 
 
 def search_by_dni():
-    search_dni = int(input("Enter the identification number of the passenger to be searched for: "))
+    search_dni = int(input("\nEnter the identification number of the passenger to be searched for: "))
     index_passenger = passenger_dni_index(search_dni)
     if index_passenger is not None:
         dni, city, name = list_passengers[index_passenger]
@@ -56,7 +56,7 @@ def search_by_dni():
 
 
 def number_of_passengers_country():
-    search_country = input("Enter the name of the country: ").strip().lower()
+    search_country = input("\nEnter the name of the country: ").strip().lower()
     cities_in_country = [city for city, country in list_cities if country.lower() == search_country]
 
     if cities_in_country:
@@ -64,9 +64,9 @@ def number_of_passengers_country():
         for dni, destination, name in list_passengers:
             if destination in cities_in_country:
                 number_of_passengers += 1
-        print(f"The number of passengers traveling to {search_country} is {number_of_passengers}")
+        print(f"\nThe number of passengers traveling to {search_country} is {number_of_passengers}")
     else:
-        print("The country sought was not found.")
+        print("\nThe country sought was not found.")
 
 def passenger_dni_index(search_dni):
     for i, passenger in enumerate(list_passengers):
