@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/WebApp/static/menu.css" afterDir="false" />
+    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="Cambie los colores del proyecto a naranaja">
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/static/graphics.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/static/graphics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/templates/graphics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Exercises/conditionals/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exercises/conditionals/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Exercises/utils_venn_diagrams/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exercises/utils_venn_diagrams/exercise1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/terminal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/terminal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/module.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/module.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/terminal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/terminal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +22,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -177,15 +174,29 @@
       <workItem from="1758550459238" duration="7053000" />
       <workItem from="1758679559001" duration="11285000" />
       <workItem from="1758728565331" duration="2987000" />
-      <workItem from="1758892368142" duration="10140000" />
+      <workItem from="1758892368142" duration="14567000" />
     </task>
+    <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
+      <option name="closed" value="true" />
+      <created>1758902640168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758902640168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mejore la calidad de los graficos, pero no logro que quede dentro de la terminal de xterm" />
+    <MESSAGE value="Cambie los colores del proyecto a naranaja" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambie los colores del proyecto a naranaja" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1758902511648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1758906927071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run.coverage" NAME="run Coverage Results" MODIFIED="1758488183892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1758685486978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$socketio_handlers.coverage" NAME="socketio_handlers Coverage Results" MODIFIED="1758685505185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />

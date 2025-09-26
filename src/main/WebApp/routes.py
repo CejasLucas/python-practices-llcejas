@@ -37,8 +37,6 @@ def run_exercise(file_name, exercise_id):
         modulo=modulo
     )
 
-@main_bp.route('/plot/<plot_id>.png')
-def get_plot(plot_id):
-    filepath = os.path.join(tempfile.gettempdir(), 'plots', f'{plot_id}.png')
-    if not os.path.exists(filepath): return abort(404)
-    return send_file(filepath, mimetype='image/png')
+@main_bp.route('/graphic')
+def graphics():
+    return render_template('graphics.html')
