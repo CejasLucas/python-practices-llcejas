@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const term = new Terminal({
         fontFamily: 'Fira Mono, monospace',
         fontSize: 14,
-        theme: { background: '#000000', foreground: '#00ffff', cursor: '#00ffff' }
+        theme: { background: '#000000', foreground: '#FF7F11', cursor: '#FF8C42' }
     });
 
     const socket = io();

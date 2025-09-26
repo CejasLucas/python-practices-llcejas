@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Menú Principal</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='menu.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Interfaz Gráfica</h1>
-        <h2>Módulos Disponibles</h2>
+        <h1>GRAPHIC INTERFACE</h1>
+        <h2>Available Modules</h2>
         <div class="grid">
             {% for modulo in modulos %}
                 <div class="modulo">

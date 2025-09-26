@@ -9,12 +9,12 @@ def run_exercise_1():
         print("\n❌ Invalid input: make sure to type numbers only.")
         return
 
-    print("\n🔎 Comparing the two numbers...")
+    print("\n🔎  Comparing the two numbers...")
 
     if x < y:
-        print(f"\nResult: {x} is smaller than {y}.")
+        print(f"\n✅  Result: {x} is smaller than {y}.")
     elif y < x:
-        print(f"\nResult: {y} is smaller than {x}.")
+        print(f"\n✅  Result: {y} is smaller than {x}.")
     else:
-        print(f"\nResult: both numbers are equal ({x}).")
+        print(f"\n✅  Result: both numbers are equal ({x}).")
     return

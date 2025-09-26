@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/static/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Exercises/utils_matplotlib/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exercises/utils_matplotlib/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/socketio_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/socketio_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exercises/conditionals/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exercises/conditionals/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Exercises/utils_venn_diagrams/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Exercises/utils_venn_diagrams/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/terminal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/terminal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/terminal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/module.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/module.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/terminal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +28,8 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -110,7 +115,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-practices-llcejas" />
       <option name="ENV_FILES" value="" />
@@ -134,81 +139,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/WebApp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/WebApp/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebApp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebApp/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="socketio_handlers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/WebApp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/WebApp/socketio_handlers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.socketio_handlers" />
-        <item itemvalue="Python.run (1)" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +177,7 @@
       <workItem from="1758550459238" duration="7053000" />
       <workItem from="1758679559001" duration="11285000" />
       <workItem from="1758728565331" duration="2987000" />
+      <workItem from="1758892368142" duration="10140000" />
     </task>
     <servers />
   </component>
@@ -251,7 +185,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1758731403857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1758902511648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run.coverage" NAME="run Coverage Results" MODIFIED="1758488183892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1758685486978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$socketio_handlers.coverage" NAME="socketio_handlers Coverage Results" MODIFIED="1758685505185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />

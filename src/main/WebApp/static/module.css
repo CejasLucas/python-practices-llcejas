@@ -1,39 +1,38 @@
+@import url("main.css");
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 2rem;
-    background-color: #0a0a0a;
-    color: #e0fafa;
+    background-color: var(--black-color);
+    color: var(--white-color);
     line-height: 1.6;
     font-size: 16px;
 }
 
-/* Contenedor */
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 1rem;
 }
 
-/* Títulos */
-h1, h2 {
-    color: #00ffff;
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
 
 h1 {
-    font-size: 2.2rem;
+    color: var(--white-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 h2 {
-    font-size: 1.6rem;
+    color: var(--color-secondary);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 400;
-    color: #66fcff;
 }
 
-/* Lista de ejercicios */
 ul {
     list-style: none;
     padding: 0;
@@ -44,11 +43,11 @@ ul {
 li {
     background-color: #1a1a1a;
     border-radius: 8px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     text-align: center;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 2px 6px rgba(0, 255, 255, 0.1);
+    box-shadow: 0 6px 16px var(--color-primary);
 }
 
 li:hover {
@@ -56,9 +55,8 @@ li:hover {
     transform: translateY(-3px);
 }
 
-/* Enlaces */
 a {
-    color: #00ffff;
+    color: var(--color-secondary);
     font-weight: 600;
     text-decoration: none;
     font-size: 1.1rem;
@@ -70,21 +68,20 @@ li a {
 }
 
 a:hover {
-    color: #66fcff;
+    color: var(--color-secondary);
     text-decoration: underline;
 }
 
-/* Enlace de volver */
 .return-link {
     display: block;
     text-align: center;
     margin-top: 2rem;
-    color: #00ffff;
+    color: var(--color-secondary);
     font-weight: 500;
     text-decoration: none;
 }
 
 .return-link:hover {
-    color: #66fcff;
+    color: var(--color-secondary);
     text-decoration: underline;
 }
