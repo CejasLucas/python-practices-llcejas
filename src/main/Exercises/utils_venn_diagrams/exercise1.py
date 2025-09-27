@@ -1,4 +1,3 @@
-import os, uuid, tempfile
 import matplotlib.pyplot as plt
 from matplotlib_venn import venn3
 from Exercises.utils_venn_diagrams.palette_colors import venn3_colors
@@ -42,14 +41,4 @@ def run_exercise_1():
     plt.tight_layout(pad=2)
     plt.gcf().canvas.manager.set_window_title("Exercise 1")
     plt.suptitle("Venn Diagram: Transportation Preferences", fontsize=12, fontweight='bold')
-    plt.show()
-
-    ## fig, ax = plt.subplots()
-    ## ax.plot([1,2,3], [4,5,6])
-
-    ## plot_id = str(uuid.uuid4())
-    ## filepath = os.path.join(tempfile.gettempdir(), f'{plot_id}.png')
-
-    ## fig.savefig(filepath)
-    ## plt.close(fig)
-    ## return plot_id
+    return plt.show()

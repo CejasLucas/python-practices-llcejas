@@ -1,32 +1,27 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     const term = new Terminal({
+        theme: { background: '#000000', foreground: '#4B8BBE', cursor: '#4B8BBE' },
         fontFamily: 'Fira Mono, monospace',
-        fontSize: 14,
-        theme: { background: '#000000', foreground: '#FF8C42', cursor: '#FF7F11' }
+        fontSize: 14
     });
 
     const socket = io();
-
     const terminalDiv = document.getElementById('terminal');
-
     if (!terminalDiv) return console.error("Error: #terminal div not found");
-
     term.open(terminalDiv);
 
+
     const fileName = window.exerciseData?.fileName || "example.txt";
-
     const exerciseId = window.exerciseData?.exerciseId || 0;
-
     term.write(`📂  Loading the practice ${fileName} exercises.\r\n`);
 
+
     let inputBuffer = "";
-
     let finished = false;
-
     socket.emit("start_exercise", { file_name: fileName, exercise_id: exerciseId });
-
     term.prompt = () => { term.write("\r\n"); };
+
 
     term.onData(e => {
         if (finished) {
@@ -48,19 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-
-    // --- Salida de gráficos ---
-    socket.on("graph", data => {
-        const graphicsDiv = document.getElementById("graphics");
-        const img = document.createElement("img");
-
-        img.src = "data:image/png;base64," + data;
-        graphicsDiv.appendChild(img);
-
-        const wrapper = document.getElementById("terminal-wrapper");
-        wrapper.scrollTop = wrapper.scrollHeight;
-    });
-
     socket.on("output", data => {
         term.write(data);
         term.prompt();
@@ -73,14 +55,29 @@ document.addEventListener("DOMContentLoaded", () => {
         if (closeBtn) closeBtn.style.display = "inline-block";
     });
 
+    socket.on("graph", data => {
+        localStorage.setItem("lastGraph", data);
+        const urlDiv = document.getElementById("url");
 
+        if (urlDiv) {
+            urlDiv.innerHTML = "";
+            const link = document.createElement("a");
+
+            link.href = "/graphic";
+            link.target = "_blank";
+            link.textContent = "🔗 See generated graph";
+            urlDiv.appendChild(link);
+            term.write("\r\n[INFO] Click the link below right to open it.\r\n");
+        }
+    });
 
     function closePopup() {
         const overlay = document.getElementById("overlay");
         overlay.style.opacity = 0;
         setTimeout(() => {
             overlay.style.display = "none";
-            window.location.href = "/";
+            const fileName = window.exerciseData?.fileName || "";
+            window.location.href = `/module/${fileName}`;
         }, 300);
     }
 
