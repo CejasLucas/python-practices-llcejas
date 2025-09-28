@@ -1,4 +1,4 @@
-from Exercises.sets.exercise1 import create_set
+from Practices.sets.exercise1 import create_set
 
 def run_exercise_3():
     first_set = create_set("first")

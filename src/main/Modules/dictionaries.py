@@ -1,7 +1,7 @@
 # WebApp/__utils__/Modules/dictionaries.py
-from Exercises.dictionaries.exercise1 import run_exercise_1
-from Exercises.dictionaries.exercise2 import run_exercise_2
-from Exercises.dictionaries.exercise3 import run_exercise_3
+from Practices.dictionaries.exercise1 import run_exercise_1
+from Practices.dictionaries.exercise2 import run_exercise_2
+from Practices.dictionaries.exercise3 import run_exercise_3
 
 def get_dict_menu_text():
     return (

@@ -1,12 +1,12 @@
 # WebApp/__utils__/Modules/cycle_while.py
-from Exercises.cycle_while.exercise1 import run_exercise_1
-from Exercises.cycle_while.exercise2 import run_exercise_2
-from Exercises.cycle_while.exercise3 import run_exercise_3
-from Exercises.cycle_while.exercise4 import run_exercise_4
-from Exercises.cycle_while.exercise5 import run_exercise_5
-from Exercises.cycle_while.exercise6 import run_exercise_6
-from Exercises.cycle_while.exercise7 import run_exercise_7
-from Exercises.cycle_while.exercise8 import run_exercise_8
+from Practices.cycle_while.exercise1 import run_exercise_1
+from Practices.cycle_while.exercise2 import run_exercise_2
+from Practices.cycle_while.exercise3 import run_exercise_3
+from Practices.cycle_while.exercise4 import run_exercise_4
+from Practices.cycle_while.exercise5 import run_exercise_5
+from Practices.cycle_while.exercise6 import run_exercise_6
+from Practices.cycle_while.exercise7 import run_exercise_7
+from Practices.cycle_while.exercise8 import run_exercise_8
 
 def get_while_menu_text():
     return (

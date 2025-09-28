@@ -1,14 +1,14 @@
 # WebApp/__utils__/Modules/utils_venn_diagrams.py
-from Exercises.utils_venn_diagrams.exercise1 import run_exercise_1
-from Exercises.utils_venn_diagrams.exercise2 import run_exercise_2
-from Exercises.utils_venn_diagrams.exercise3 import run_exercise_3
-from Exercises.utils_venn_diagrams.exercise4 import run_exercise_4
-from Exercises.utils_venn_diagrams.exercise5 import run_exercise_5
-from Exercises.utils_venn_diagrams.exercise6 import run_exercise_6
-from Exercises.utils_venn_diagrams.exercise7 import run_exercise_7
-from Exercises.utils_venn_diagrams.exercise8 import run_exercise_8
-from Exercises.utils_venn_diagrams.exercise9 import run_exercise_9
-from Exercises.utils_venn_diagrams.exercise10 import run_exercise_10
+from Practices.utils_venn_diagrams.exercise1 import run_exercise_1
+from Practices.utils_venn_diagrams.exercise2 import run_exercise_2
+from Practices.utils_venn_diagrams.exercise3 import run_exercise_3
+from Practices.utils_venn_diagrams.exercise4 import run_exercise_4
+from Practices.utils_venn_diagrams.exercise5 import run_exercise_5
+from Practices.utils_venn_diagrams.exercise6 import run_exercise_6
+from Practices.utils_venn_diagrams.exercise7 import run_exercise_7
+from Practices.utils_venn_diagrams.exercise8 import run_exercise_8
+from Practices.utils_venn_diagrams.exercise9 import run_exercise_9
+from Practices.utils_venn_diagrams.exercise10 import run_exercise_10
 
 def get_venn_diagrams_menu_text():
     return (

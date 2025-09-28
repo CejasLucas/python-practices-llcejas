@@ -1,10 +1,10 @@
 # WebApp/__utils__/Modules/utils_networkx.py
-from Exercises.utils_networkx.exercise1 import run_exercise_1
-from Exercises.utils_networkx.exercise2 import run_exercise_2
-from Exercises.utils_networkx.exercise3 import run_exercise_3
-from Exercises.utils_networkx.exercise4 import run_exercise_4
-from Exercises.utils_networkx.exercise5 import run_exercise_5
-from Exercises.utils_networkx.exercise6 import run_exercise_6
+from Practices.utils_networkx.exercise1 import run_exercise_1
+from Practices.utils_networkx.exercise2 import run_exercise_2
+from Practices.utils_networkx.exercise3 import run_exercise_3
+from Practices.utils_networkx.exercise4 import run_exercise_4
+from Practices.utils_networkx.exercise5 import run_exercise_5
+from Practices.utils_networkx.exercise6 import run_exercise_6
 
 def get_networkx_menu_text():
     return (

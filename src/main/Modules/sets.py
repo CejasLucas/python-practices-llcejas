@@ -1,8 +1,8 @@
 # WebApp/__utils__/Modules/sets.py
-from Exercises.sets.exercise1 import run_exercise_1
-from Exercises.sets.exercise2 import run_exercise_2
-from Exercises.sets.exercise3 import run_exercise_3
-from Exercises.sets.exercise4 import run_exercise_4
+from Practices.sets.exercise1 import run_exercise_1
+from Practices.sets.exercise2 import run_exercise_2
+from Practices.sets.exercise3 import run_exercise_3
+from Practices.sets.exercise4 import run_exercise_4
 
 def get_sets_menu_text():
     return (

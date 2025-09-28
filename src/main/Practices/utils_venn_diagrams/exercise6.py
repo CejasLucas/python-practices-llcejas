@@ -1,4 +1,4 @@
-from Exercises.utils_venn_diagrams.palette_colors import venn3_colors
+from Practices.utils_venn_diagrams.palette_colors import venn3_colors
 from matplotlib_venn import venn3
 import matplotlib.pyplot as plt
 

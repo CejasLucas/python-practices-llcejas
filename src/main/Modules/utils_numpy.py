@@ -1,8 +1,8 @@
 # WebApp/__utils__/Modules/utils_numpy.py
-from Exercises.utils_numpy.exercise1 import run_exercise_1
-from Exercises.utils_numpy.exercise2 import run_exercise_2
-from Exercises.utils_numpy.exercise3 import run_exercise_3
-from Exercises.utils_numpy.exercise4 import run_exercise_4
+from Practices.utils_numpy.exercise1 import run_exercise_1
+from Practices.utils_numpy.exercise2 import run_exercise_2
+from Practices.utils_numpy.exercise3 import run_exercise_3
+from Practices.utils_numpy.exercise4 import run_exercise_4
 
 def get_numpy_menu_text():
     return (

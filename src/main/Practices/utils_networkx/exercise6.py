@@ -1,5 +1,5 @@
 import networkx as nx
-from Exercises.utils_networkx.style_graph import GraphStyle, build_graph, theme_palette
+from Practices.utils_networkx.style_graph import GraphStyle, build_graph, theme_palette
 
 pairs = [
     ("Escobar", "Fernandez"),

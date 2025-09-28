@@ -1,7 +1,7 @@
 # WebApp/__utils__/Modules/tuples.py
-from Exercises.tuples.exercise1 import run_exercise_1
-from Exercises.tuples.exercise2 import run_exercise_2
-from Exercises.tuples.exercise3 import run_exercise_3
+from Practices.tuples.exercise1 import run_exercise_1
+from Practices.tuples.exercise2 import run_exercise_2
+from Practices.tuples.exercise3 import run_exercise_3
 
 def get_tuples_menu_text():
     return (

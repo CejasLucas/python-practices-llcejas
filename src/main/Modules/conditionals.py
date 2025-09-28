@@ -1,10 +1,10 @@
 # WebApp/__utils__/Modules/conditionals.py
-from Exercises.conditionals.exercise1 import run_exercise_1
-from Exercises.conditionals.exercise2 import run_exercise_2
-from Exercises.conditionals.exercise3 import run_exercise_3
-from Exercises.conditionals.exercise4 import run_exercise_4
-from Exercises.conditionals.exercise5 import run_exercise_5
-from Exercises.conditionals.exercise6 import run_exercise_6
+from Practices.conditionals.exercise1 import run_exercise_1
+from Practices.conditionals.exercise2 import run_exercise_2
+from Practices.conditionals.exercise3 import run_exercise_3
+from Practices.conditionals.exercise4 import run_exercise_4
+from Practices.conditionals.exercise5 import run_exercise_5
+from Practices.conditionals.exercise6 import run_exercise_6
 
 def get_conditionals_menu_text():
     return (

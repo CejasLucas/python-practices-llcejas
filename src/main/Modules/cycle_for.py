@@ -1,8 +1,8 @@
 # WebApp/__utils__/Modules/cycle_for.py
-from Exercises.cycle_for.exercise1 import run_exercise_1
-from Exercises.cycle_for.exercise2 import run_exercise_2
-from Exercises.cycle_for.exercise3 import run_exercise_3
-from Exercises.cycle_for.exercise4 import run_exercise_4
+from Practices.cycle_for.exercise1 import run_exercise_1
+from Practices.cycle_for.exercise2 import run_exercise_2
+from Practices.cycle_for.exercise3 import run_exercise_3
+from Practices.cycle_for.exercise4 import run_exercise_4
 
 def get_for_menu_text():
     return (

@@ -1,4 +1,4 @@
-from Exercises.utils_venn_diagrams.palette_colors import venn2_colors
+from Practices.utils_venn_diagrams.palette_colors import venn2_colors
 from matplotlib import pyplot as plt
 from matplotlib import patheffects
 from matplotlib_venn import venn2

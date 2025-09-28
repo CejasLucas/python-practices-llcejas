@@ -1,11 +1,11 @@
 # WebApp/__utils__/Modules/utils_pandas.py
-from Exercises.utils_pandas.exercise1 import run_exercise_1
-from Exercises.utils_pandas.exercise2 import run_exercise_2
-from Exercises.utils_pandas.exercise3 import run_exercise_3
-from Exercises.utils_pandas.exercise4 import run_exercise_4
-from Exercises.utils_pandas.exercise5 import run_exercise_5
-from Exercises.utils_pandas.exercise6 import run_exercise_6
-from Exercises.utils_pandas.exercise7 import run_exercise_7
+from Practices.utils_pandas.exercise1 import run_exercise_1
+from Practices.utils_pandas.exercise2 import run_exercise_2
+from Practices.utils_pandas.exercise3 import run_exercise_3
+from Practices.utils_pandas.exercise4 import run_exercise_4
+from Practices.utils_pandas.exercise5 import run_exercise_5
+from Practices.utils_pandas.exercise6 import run_exercise_6
+from Practices.utils_pandas.exercise7 import run_exercise_7
 
 def get_pandas_menu_text():
     return (
