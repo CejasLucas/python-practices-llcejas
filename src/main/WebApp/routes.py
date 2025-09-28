@@ -6,7 +6,7 @@ main_bp = Blueprint('main', __name__)
 
 @main_bp.route('/')
 def main_menu():
-    return render_template('menu.html', modulos=modules.menu())
+    return render_template('home.html', modulos=modules.menu())
 
 
 @main_bp.route('/module/<file_name>')
@@ -22,7 +22,7 @@ def module_page(file_name):
         exercises = submenu_func()
         submenu = [{"id": int(k), "name": v["name"]} for k,v in exercises.items()]
 
-    return render_template('module.html', modulo=modulo, submenu=submenu)
+    return render_template('practice.html', modulo=modulo, submenu=submenu)
 
 
 @main_bp.route('/module/<file_name>/exercise/<int:exercise_id>')
@@ -31,7 +31,7 @@ def run_exercise(file_name, exercise_id):
     if not modulo or 'submenu_func' not in modulo: abort(404)
 
     return render_template(
-        'terminal.html',
+        'task.html',
         file_name=file_name,
         exercise_id=exercise_id,
         modulo=modulo
@@ -39,4 +39,4 @@ def run_exercise(file_name, exercise_id):
 
 @main_bp.route('/graphic')
 def graphics():
-    return render_template('graphics.html')
+    return render_template('graphic.html')

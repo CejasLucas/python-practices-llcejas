@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="" />
+    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/static/javascript/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/static/style/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/graphics.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/style/graphic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/graphics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/javascript/graphics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/style/color.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/style/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/style/practice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/terminal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/style/task.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/javascript/terminal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/graphics.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/graphic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/module.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/templates/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/templates/task.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +30,9 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -46,49 +61,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.__main__ (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__ (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.example1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_conditionals.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_venn_diagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runner_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runner_venn_diagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.socketio_handlers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;interface&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/usuario/Documentos/GitHub/python-practices-llcejas/WebApp/__utils__&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.templateLanguages.PyTemplateLanguageModulesConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.__main__ (1).executor": "Run",
+    "Python.__main__ (2).executor": "Run",
+    "Python.__main__.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.example1.executor": "Run",
+    "Python.examples (1).executor": "Run",
+    "Python.examples (2).executor": "Run",
+    "Python.examples (3).executor": "Run",
+    "Python.examples.executor": "Run",
+    "Python.run (1).executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.run_conditionals.executor": "Run",
+    "Python.run_dictionaries.executor": "Run",
+    "Python.run_for.executor": "Run",
+    "Python.run_lists.executor": "Run",
+    "Python.run_sets.executor": "Run",
+    "Python.run_venn_diagrams.executor": "Run",
+    "Python.run_while.executor": "Run",
+    "Python.runner_dictionaries.executor": "Run",
+    "Python.runner_venn_diagrams.executor": "Run",
+    "Python.socketio_handlers.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "interface__feactures",
+    "last_opened_file_path": "/home/usuario/Documentos/GitHub/python-practices-llcejas/WebApp/__utils__",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "com.intellij.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
+    "ts.external.directory.path": "/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebApp/__utils__" />
@@ -96,11 +111,11 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/WebApp/static/style" />
+      <recent name="$PROJECT_DIR$/src/main/WebApp/static/javascript" />
       <recent name="$PROJECT_DIR$/src/main/WebApp/static" />
       <recent name="$PROJECT_DIR$/src/main/WebApp/static/xterm" />
       <recent name="$PROJECT_DIR$/src/main/WebApp/templates" />
-      <recent name="$PROJECT_DIR$/src/main/WebApp" />
-      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="RunManager">
@@ -167,6 +182,7 @@
       <workItem from="1758728565331" duration="2987000" />
       <workItem from="1758892368142" duration="14811000" />
       <workItem from="1758977941172" duration="6417000" />
+      <workItem from="1759101039445" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />

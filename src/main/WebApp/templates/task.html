@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
 
     <!-- CSS personalizado -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='terminal.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/task.css') }}">
 </head>
 <body>
     <div id="overlay">
@@ -28,6 +28,6 @@
             exerciseId: Number("{{ exercise_id }}")
         };
     </script>
-    <script src="{{ url_for('static', filename='terminal.js') }}"></script>
+    <script src="{{ url_for('static', filename='javascript/terminal.js') }}"></script>
 </body>
 </html>
