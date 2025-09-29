@@ -1,17 +1,17 @@
 import importlib
-import Modules.__modules__ as modules
+import WebApp.modules as modules
 from flask import Blueprint, render_template, abort
 
 main_bp = Blueprint('main', __name__)
 
 @main_bp.route('/')
 def main_menu():
-    return render_template('home.html', modulos=modules.menu())
+    return render_template('home.html', modulos=modules.info_module())
 
 
 @main_bp.route('/module/<file_name>')
 def module_page(file_name):
-    modulo = next((m for m in modules.menu() if m['file_name'] == file_name), None)
+    modulo = next((m for m in modules.info_module() if m['file_name'] == file_name), None)
     if not modulo: abort(404)
 
     submenu = []
@@ -27,7 +27,7 @@ def module_page(file_name):
 
 @main_bp.route('/module/<file_name>/exercise/<int:exercise_id>')
 def run_exercise(file_name, exercise_id):
-    modulo = next((m for m in modules.menu() if m['file_name'] == file_name), None)
+    modulo = next((m for m in modules.info_module() if m['file_name'] == file_name), None)
     if not modulo or 'submenu_func' not in modulo: abort(404)
 
     return render_template(

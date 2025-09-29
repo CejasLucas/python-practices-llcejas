@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 
-¡Bienvenido! Este es mi repositorio personal donde pongo en práctica mis habilidades como programador. 
+¡Bienvenido! Este es mi repositorio personal donde pongo en práctica mis habilidades como programador.  
 Este proyecto está dirigido a estudiantes y autodidactas que desean mejorar su comprensión práctica de **Python**.
 
 Aquí encontrarás ejercicios, scripts y utilidades que exploran tanto lo básico como aspectos más avanzados del lenguaje.
@@ -10,11 +10,18 @@ Aquí encontrarás ejercicios, scripts y utilidades que exploran tanto lo básic
 Este proyecto tiene como objetivo **reforzar y organizar mi aprendizaje** en programación con Python, usando una estructura 
 modular que facilita la escalabilidad, la reutilización de código y el uso de buenas prácticas.
 
+---
+
 ## 📂 Contenido del repositorio
 
 - Ejercicios prácticos por tema (condicionales, ciclos, colecciones, diagramas de Venn, etc.)
 - Scripts para automatización y scripting
 - Contenido avanzado como análisis de datos y grafos
+- Aplicaciones web interactivas con:
+  - **Flask** como framework web
+  - **Flask-SocketIO** para comunicación en tiempo real
+  - Integración con **JavaScript**, **HTML** y **CSS**
+  - Terminal interactiva en el navegador con **xterm.js**
 
 Todo está organizado por carpetas para facilitar la navegación, el mantenimiento y la extensión del repositorio.
 
@@ -38,7 +45,12 @@ Todo está organizado por carpetas para facilitar la navegación, el mantenimien
     con conjuntos como **union, intersection y difference.**  
   - `pandas`: Manejo y análisis de datos usando estructuras **Series** y **DataFrame**  
   - `numpy`: Operaciones con **matrices** y arreglos multidimensionales  
-  -  `networkx`: Algoritmos en grafos (Djikstrack)
+  - `networkx`: Algoritmos en grafos (Djikstrack)
+- Desarrollo web:
+  - `Flask` y `Flask-SocketIO` para backend
+  - **JavaScript**, **HTML** y **CSS** para frontend
+  - Terminal interactiva con **xterm.js**
+  - Comunicación en tiempo real entre cliente y servidor
 
 ---
 
@@ -54,26 +66,38 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 .
 ├── .venv/                     # Entorno virtual local (excluido por .gitignore)
 ├── data/                      # Archivos de datos (txt, csv) para análisis y gráficos
+├── lib/
 ├── src/                       # Código fuente principal
-│   └── main/
-│       ├── __utils__/         # Funciones auxiliares reutilizables
-│       │   ├── __init__.py
-│       │   └── ExerciseBuilder.py
-│       ├── conditionals/
-│       ├── cycle_for/
-│       ├── cycle_while/
-│       ├── dictionaries/
-│       ├── lists/
-│       ├── sets/
-│       ├── tuples/
-│       ├── utils_matplotlib/
-│       ├── utils_networkx/
-│       ├── utils_numpy/
-│       ├── utils_pandas/
-│       └── utils_venn_diagrams/
-├── test/                      # Pruebas automáticas
-│   ├── __init__.py
-│   └── test.py
+│   ├── main/
+│   │   ├── Practices/         # Funciones auxiliares reutilizables
+│   │   │   ├── conditionals/
+│   │   │   ├── cycle_for/
+│   │   │   ├── cycle_while/
+│   │   │   ├── dictionaries/
+│   │   │   ├── lists/
+│   │   │   ├── sets/
+│   │   │   ├── tuples/
+│   │   │   ├── utils_matplotlib/
+│   │   │   ├── utils_networkx/
+│   │   │   ├── utils_numpy/
+│   │   │   ├── utils_pandas/
+│   │   │   ├── utils_venn_diagrams/
+│   │   │   ├── __loader__.py
+│   │   │   └── __init__.py
+│   │   └── WebApp/            # Aplicación web
+│   │       ├── static/  
+│   │       │    ├── javascript/
+│   │       │    ├── style/
+│   │       │    └── xterm/   # Terminal interactiva en navegador
+│   │       ├── templates/     # Archivos HTML
+│   │       ├── app.py         # Configuración principal de Flask
+│   │       ├── module.py      # Lógica de módulos
+│   │       ├── routes.py      # Rutas y endpoints
+│   │       ├── socketio_handlers.py # Manejo de eventos en tiempo real
+│   │       └── __init__.py
+│   └── test/                      
+│       ├── test.py
+│       └── __init__.py
 ├── .gitignore                 # Ignora archivos como .venv/
 └── README.md                  # Documentación del proyecto
 ```

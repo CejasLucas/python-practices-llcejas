@@ -1,13 +1,16 @@
-from colorama import Fore, Style, init
-init()
+from colorama import Fore, Style
 
 class ExerciseBuilder:
-    def __init__(self, exercises: dict, menu_text: str):
+    def __init__(self, exercises: dict, menu: dict):
         self.exercises = exercises
-        self.menu_text = menu_text
+        self.menu = menu
 
     def show_menu(self):
-        print(Fore.LIGHTWHITE_EX + Style.NORMAL + self.menu_text + Style.RESET_ALL)
+        print(Fore.LIGHTWHITE_EX + Style.NORMAL)
+        for key, name in self.menu.items():
+            print(f" {key}. {name}")
+        print(" 0. Exit")
+        print(Style.RESET_ALL, end="")
 
     def run(self):
         while True:
