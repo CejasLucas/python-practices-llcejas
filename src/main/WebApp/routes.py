@@ -1,5 +1,5 @@
 import importlib
-import WebApp.modules as modules
+import src.main.WebApp.modules as modules
 from flask import Blueprint, render_template, abort
 
 main_bp = Blueprint('main', __name__)

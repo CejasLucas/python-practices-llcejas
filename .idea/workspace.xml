@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/__builder__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/__loader__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/__modules__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/modules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/conditionals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/cycle_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_for/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/cycle_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/dictionaries/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/sets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/sets/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/tuples/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/utils_matplotlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_matplotlib/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/utils_networkx.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/utils_numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_numpy/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/utils_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_pandas/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Modules/utils_venn_diagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_for/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_for/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/dictionaries/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/dictionaries/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/sets/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/sets/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/tuples/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/tuples/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_matplotlib/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_matplotlib/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_numpy/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_numpy/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_pandas/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_pandas/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise10.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise9.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams/exercise9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/WebApp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WebApp/socketio_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/socketio_handlers.py" afterDir="false" />
     </list>
@@ -88,49 +54,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.__main__ (1).executor": "Run",
-    "Python.__main__ (2).executor": "Run",
-    "Python.__main__.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.example1.executor": "Run",
-    "Python.examples (1).executor": "Run",
-    "Python.examples (2).executor": "Run",
-    "Python.examples (3).executor": "Run",
-    "Python.examples.executor": "Run",
-    "Python.run (1).executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.run_conditionals.executor": "Run",
-    "Python.run_dictionaries.executor": "Run",
-    "Python.run_for.executor": "Run",
-    "Python.run_lists.executor": "Run",
-    "Python.run_sets.executor": "Run",
-    "Python.run_venn_diagrams.executor": "Run",
-    "Python.run_while.executor": "Run",
-    "Python.runner_dictionaries.executor": "Run",
-    "Python.runner_venn_diagrams.executor": "Run",
-    "Python.socketio_handlers.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "interface__feactures",
-    "last_opened_file_path": "/home/usuario/Documentos/GitHub/python-practices-llcejas/WebApp/__utils__",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "com.intellij.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
-    "ts.external.directory.path": "/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.__main__ (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__ (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_conditionals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_venn_diagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runner_dictionaries.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runner_venn_diagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.socketio_handlers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;interface__feactures&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/usuario/Documentos/GitHub/python-practices-llcejas/WebApp/__utils__&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.templateLanguages.PyTemplateLanguageModulesConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebApp/__utils__" />
@@ -146,7 +112,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-practices-llcejas" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +126,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/WebApp/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/WebApp/__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.__main__" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +175,8 @@
       <workItem from="1758728565331" duration="2987000" />
       <workItem from="1758892368142" duration="14811000" />
       <workItem from="1758977941172" duration="6417000" />
-      <workItem from="1759101039445" duration="7383000" />
+      <workItem from="1759101039445" duration="7937000" />
+      <workItem from="1759231138230" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />
@@ -233,7 +200,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1759106581627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1759070935315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/cycle_for" />
-    <SUITE FILE_PATH="coverage/python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1759103777830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/conditionals" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1759234189211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run.coverage" NAME="run Coverage Results" MODIFIED="1758488183892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1758685486978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$socketio_handlers.coverage" NAME="socketio_handlers Coverage Results" MODIFIED="1758685505185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />

@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from flask import request
 from flask_socketio import emit
 # ------- Applications ---------
-from WebApp import socketio
-from WebApp.modules import info_module
+from src.main.WebApp import socketio
+from src.main.WebApp.modules import info_module
 
 
 clients = {}

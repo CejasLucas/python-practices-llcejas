@@ -1,4 +1,4 @@
-# 🐍 Proyecto personal en Python
+# Proyecto personal en Python 
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 
@@ -12,21 +12,6 @@ modular que facilita la escalabilidad, la reutilización de código y el uso de 
 
 ---
 
-## 📂 Contenido del repositorio
-
-- Ejercicios prácticos por tema (condicionales, ciclos, colecciones, diagramas de Venn, etc.)
-- Scripts para automatización y scripting
-- Contenido avanzado como análisis de datos y grafos
-- Aplicaciones web interactivas con:
-  - **Flask** como framework web
-  - **Flask-SocketIO** para comunicación en tiempo real
-  - Integración con **JavaScript**, **HTML** y **CSS**
-  - Terminal interactiva en el navegador con **xterm.js**
-
-Todo está organizado por carpetas para facilitar la navegación, el mantenimiento y la extensión del repositorio.
-
----
-
 ## 🧰 Temas y herramientas
 
 ### Lenguaje y estructuras de control:
@@ -37,39 +22,57 @@ Todo está organizado por carpetas para facilitar la navegación, el mantenimien
 - Colecciones como `list`, `dict`, `set`, `tuple`
 
 ### Herramientas y librerías:
+1. **Sistema de Archivos:**
+    - `os:` Navegación de directorios, manipulación de rutas, lectura de variables de entorno
 
-- Automatización con scripts  
-- Análisis de datos con:
-  - `matplotlib`: Visualización de datos con gráficos de **barras, líneas, tortas (pie charts).**
-  - `matplotlib_venn`: Diagramas de dos conjuntos (venn2) y tres conjuntos (venn3). Incluyendo operaciones 
-    con conjuntos como **union, intersection y difference.**  
-  - `pandas`: Manejo y análisis de datos usando estructuras **Series** y **DataFrame**  
-  - `numpy`: Operaciones con **matrices** y arreglos multidimensionales  
-  - `networkx`: Algoritmos en grafos (Djikstrack)
-- Desarrollo web:
-  - `Flask` y `Flask-SocketIO` para backend
-  - **JavaScript**, **HTML** y **CSS** para frontend
-  - Terminal interactiva con **xterm.js**
-  - Comunicación en tiempo real entre cliente y servidor
+2. **Análisis de Datos:**
+   - `matplotlib:` Visualización de datos con gráficos de barras, líneas, tortas (pie charts).
+   - `matplotlib_venn:` Diagramas de dos conjuntos (venn2) y tres conjuntos (venn3). Incluyendo operaciones
+      con conjuntos como union, intersection y difference.
+   - `pandas:` Manejo y análisis de datos usando estructuras Series y DataFrame.
+   - `numpy:` Operaciones con matrices y arreglos multidimensionales.
+   - `networkx:` Algoritmos en grafos (Djikstrack).
+
+3. **Desarrollo web:**
+
+    - `Flask + Flask-SocketIO` para backend.
+    - `JavaScript + HTML + CSS` para frontend.
+    - `Blueprint` para organizar vistas y rutas. 
+    - Terminal interactiva con `xterm.js`.
+    - Librerías auxiliares para ejecución de código en vivo:
+      - `queue | threading:` Ejecución en segundo plano y sincronización
+      - `importlib:` Carga dinámica de módulos 
+      - `io | sys:` Redirección de entrada/salida estándar 
+      - `base64:` Codificación y decodificación de datos 
+      - `builtins:` Acceso a funciones y objetos integrados de Python
+
+[NOTA] Todo está organizado por carpetas para facilitar la navegación, el mantenimiento y la extensión del repositorio.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 💼 Estructura del Proyecto
 
-Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
+Cada subdirectorio de src/main/ representa un módulo temático y contiene:
+- Dentro del package **Practices** vamos a tener cada módulo que contendrá:
+  - `exerciseN.py:` Ejercicios específicos de ese módulo.
+  - `__main__.py:` Punto de entrada principal del módulo.
+  - `__menu__.py:` Menú con un breve enunciado sobre qué hace cada ejercicio.
+  - `__init__.py:` Necesario para que el directorio sea tratado como un paquete.
 
-- `exerciseN.py`: Ejercicios específicos de ese tema.
-- `__main__.py`: Punto de entrada principal del módulo.
-- `__init__.py`: Necesario para que el directorio sea tratado como un paquete.
 
-```bash
+- Dentro de **WebApp** se encuentra una aplicación web desarrollada con **Flask y SocketIO**, 
+que permite ejecutar y visualizar ejercicios desde el navegador con una terminal 
+interactiva integrada (basada en **xterm.js**). Está diseñada para facilitar pruebas, 
+depuración y ejecución dinámica de código Python.
+
+``` bash
 .
 ├── .venv/                     # Entorno virtual local (excluido por .gitignore)
 ├── data/                      # Archivos de datos (txt, csv) para análisis y gráficos
 ├── lib/
 ├── src/                       # Código fuente principal
 │   ├── main/
-│   │   ├── Practices/         # Funciones auxiliares reutilizables
+│   │   ├── Practices/         # Funciones reutilizables
 │   │   │   ├── conditionals/
 │   │   │   ├── cycle_for/
 │   │   │   ├── cycle_while/
@@ -101,10 +104,22 @@ Cada subdirectorio de `src/main/` representa un módulo temático y contiene:
 ├── .gitignore                 # Ignora archivos como .venv/
 └── README.md                  # Documentación del proyecto
 ```
+---
+
+## 📦 `__init__.py`: ¿Qué es y por qué importa?
+
+Este archivo convierte una carpeta en un **paquete de Python**. Aunque en versiones recientes no es obligatorio, se recomienda incluirlo por:
+
+- Organización del código
+- Compatibilidad retroactiva 
+- Importaciones controladas
+- Permite ejecutar con `python -m` sin errores
+
+Incluso si el archivo está vacío, su presencia mejora la claridad y el mantenimiento del proyecto.
 
 ---
 
-## 🔧 Configuración del entorno virtual en Ubuntu
+## 🔧 Configuración del entorno virtual
 
 Para evitar conflictos entre dependencias y mantener el proyecto aislado del sistema, se recomienda usar un entorno virtual.  
 Una vez activado, todos los paquetes que instales con `pip` quedarán guardados dentro de `.venv/`.
@@ -137,30 +152,38 @@ Una vez activado, todos los paquetes que instales con `pip` quedarán guardados 
 
 ---
 
-## 📦 `__init__.py`: ¿Qué es y por qué importa?
+## ⚙️ `python3 -m`: ¿Cómo ejecuto los módulos desde la terminal?
 
-Este archivo convierte una carpeta en un **paquete de Python**. Aunque en versiones recientes no es obligatorio, se recomienda incluirlo por:
-
-- Organización del código
-- Compatibilidad retroactiva 
-- Importaciones controladas
-- Permite ejecutar con `python -m` sin errores
-
-Incluso si el archivo está vacío, su presencia mejora la claridad y el mantenimiento del proyecto.
-
-### ¿Cómo ejecuto los módulos del proyecto?
-
-Desde la **raíz del proyecto** (donde se encuentran `.gitignore`, `.venv`, `src`, `README.md`), podés ejecutar cualquier módulo usando:
-
+Desde la **raíz del proyecto**, donde se encuentran: 
+[`.gitignore`, `.venv`, `src`, `README.md`], podés ejecutar cualquier módulo usando:
 ```bash
   python3 -m src.main.nombre_modulo
 ```
-
 Ejemplo:
 ```bash
    python3 -m src.main.utils_pandas
 ```
 
+---
+
+## 🌐 `python3 -m`:  ¿Cómo correr la WebApp desde la terminal?
+
+La aplicación web se encuentra en el módulo WebApp y está construida 
+con Flask y Flask-SocketIO. Esta app permite ejecutar ejercicios desde 
+el navegador mediante una terminal interactiva basada en xterm.js. 
+Para levantar la WebApp, desde la raíz del proyecto, ejecutá:
+```bash
+   python3 -m src.main.WebApp
+```
+
+Esto iniciará el servidor Flask, que por defecto corre en:
+> Running on http://localhost:5000 \
+> Press CTRL+C to quit
+
+### 🧭 ¿Qué vas a ver en el navegador? 
+- Un menú de ejercicios disponibles 
+- Una terminal interactiva (basada en xterm.js)
+- La posibilidad de ejecutar código en vivo desde el navegador
 ---
 
 ## 👨‍💻 _Autor: Lucas Leonel Cejas_
