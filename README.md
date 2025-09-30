@@ -12,7 +12,7 @@ modular que facilita la escalabilidad, la reutilización de código y el uso de 
 
 ---
 
-## 🧰 Temas y herramientas
+## 🧰 Tecnologías y librerías principales
 
 ### Lenguaje y estructuras de control:
 
@@ -50,7 +50,7 @@ modular que facilita la escalabilidad, la reutilización de código y el uso de 
 
 ---
 
-## 💼 Estructura del Proyecto
+## 🧱 Breve resumen de la aplicación
 
 Cada subdirectorio de src/main/ representa un módulo temático y contiene:
 - Dentro del package **Practices** vamos a tener cada módulo que contendrá:
@@ -64,6 +64,9 @@ Cada subdirectorio de src/main/ representa un módulo temático y contiene:
 que permite ejecutar y visualizar ejercicios desde el navegador con una terminal 
 interactiva integrada (basada en **xterm.js**). Está diseñada para facilitar pruebas, 
 depuración y ejecución dinámica de código Python.
+
+---
+## 📈 Arquitectura del proyecto
 
 ``` bash
 .
@@ -180,7 +183,7 @@ Esto iniciará el servidor Flask, que por defecto corre en:
 > Running on http://localhost:5000 \
 > Press CTRL+C to quit
 
-### 🧭 ¿Qué vas a ver en el navegador? 
+###  ¿Qué vas a ver en el navegador? 
 - Un menú de ejercicios disponibles 
 - Una terminal interactiva (basada en xterm.js)
 - La posibilidad de ejecutar código en vivo desde el navegador
