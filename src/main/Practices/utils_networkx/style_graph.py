@@ -1,9 +1,10 @@
 import os
 import webbrowser
 import networkx as nx
+from pathlib import Path
 from pyvis.network import Network
 
-OUTPUT_DIR = "/outputs"
+OUTPUT_DIR = "outputs"
 
 theme_palette = {
     1: {"node": "#345E44", "edge": "#63A86E"},
@@ -16,6 +17,7 @@ def build_graph(data):
     graph = nx.Graph()
     graph.add_weighted_edges_from(data)
     return graph
+
 
 class GraphStyle:
     edge_font_size = 10
@@ -61,7 +63,6 @@ class GraphStyle:
 
         net.show_buttons(filter_=['physics'])
 
-        # 👉 + or - space : spring_length
         net.barnes_hut(
             spring_length=50,
             spring_strength=0.005,
@@ -75,5 +76,6 @@ class GraphStyle:
         file_path = os.path.join(OUTPUT_DIR, file_name)
         net.save_graph(file_path)
 
-        print(f"HTML generado en: {file_path}")
-        webbrowser.open(f"file://{file_path}")
+        abs_path = Path(file_path).absolute().as_uri()  # <-- STOP
+        print(f"HTML generado en: {abs_path}")
+        webbrowser.open(abs_path)

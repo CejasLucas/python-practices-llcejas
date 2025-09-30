@@ -6,7 +6,6 @@
 Este proyecto está dirigido a estudiantes y autodidactas que desean mejorar su comprensión práctica de **Python**.
 
 Aquí encontrarás ejercicios, scripts y utilidades que exploran tanto lo básico como aspectos más avanzados del lenguaje.
-
 Este proyecto tiene como objetivo **reforzar y organizar mi aprendizaje** en programación con Python, usando una estructura 
 modular que facilita la escalabilidad, la reutilización de código y el uso de buenas prácticas.
 
@@ -73,6 +72,7 @@ depuración y ejecución dinámica de código Python.
 ├── .venv/                     # Entorno virtual local (excluido por .gitignore)
 ├── data/                      # Archivos de datos (txt, csv) para análisis y gráficos
 ├── lib/
+├── outputs/                   # Archivos HTML generados automaticamente por Networx
 ├── src/                       # Código fuente principal
 │   ├── main/
 │   │   ├── Practices/         # Funciones reutilizables
@@ -88,7 +88,7 @@ depuración y ejecución dinámica de código Python.
 │   │   │   ├── utils_numpy/
 │   │   │   ├── utils_pandas/
 │   │   │   ├── utils_venn_diagrams/
-│   │   │   ├── __loader__.py
+│   │   │   ├── __loader__.py  # Cargador para los ejercicios por módulo
 │   │   │   └── __init__.py
 │   │   └── WebApp/            # Aplicación web
 │   │       ├── static/  

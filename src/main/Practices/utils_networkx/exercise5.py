@@ -1,5 +1,5 @@
 import networkx as nx
-from Practices.utils_networkx.style_graph import GraphStyle, build_graph, theme_palette
+from src.main.Practices.utils_networkx.style_graph import GraphStyle, build_graph, theme_palette
 
 # Mapping node letters to real landmarks in Prague
 landmark_names = {
