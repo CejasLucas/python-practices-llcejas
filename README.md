@@ -71,8 +71,10 @@ depuración y ejecución dinámica de código Python.
 .
 ├── .venv/                     # Entorno virtual local (excluido por .gitignore)
 ├── data/                      # Archivos de datos (txt, csv) para análisis y gráficos
-├── lib/
 ├── outputs/                   # Archivos HTML generados automaticamente por Networx
+├── resources PDF/             # Carpeta donde se encuentra toda la teoria de las prácticas
+│   ├── Practices/             # Enuncia por práctica PDFs
+│   └── Theory/                # Teoria complementaría en PDFs 
 ├── src/                       # Código fuente principal
 │   ├── main/
 │   │   ├── Practices/         # Funciones reutilizables
