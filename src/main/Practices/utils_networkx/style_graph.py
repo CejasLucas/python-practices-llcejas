@@ -4,7 +4,10 @@ import networkx as nx
 from pathlib import Path
 from pyvis.network import Network
 
-OUTPUT_DIR = "outputs"
+# 4 Levels: .../src/main/Practices/utils_networkx/style_graph.py → root
+PROJECT_ROOT = Path(__file__).resolve().parents[4]
+OUTPUT_DIR = PROJECT_ROOT / "outputs"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 theme_palette = {
     1: {"node": "#345E44", "edge": "#63A86E"},
@@ -12,6 +15,7 @@ theme_palette = {
     3: {"node": "#7B5C3F", "edge": "#C3A481"},
     4: {"font": "#0A0A0A", "label": "#404040"}
 }
+
 
 def build_graph(data):
     graph = nx.Graph()
@@ -25,11 +29,11 @@ class GraphStyle:
     node_size = 30
 
     def __init__(
-            self,
-            node_color=theme_palette[1]["node"],
-            node_font_color=theme_palette[4]["label"],
-            edge_color=theme_palette[1]["edge"],
-            edge_label_color=theme_palette[4]["font"]
+        self,
+        node_color=theme_palette[1]["node"],
+        node_font_color=theme_palette[4]["label"],
+        edge_color=theme_palette[1]["edge"],
+        edge_label_color=theme_palette[4]["font"]
     ):
         self.node_color = node_color
         self.node_font_color = node_font_color
@@ -37,7 +41,6 @@ class GraphStyle:
         self.edge_label_color = edge_label_color
 
     def draw_graph_pyvis(self, graph, title):
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
         net = Network(height="750px", width="100%", directed=False, notebook=False)
 
         for node in graph.nodes():
@@ -73,9 +76,9 @@ class GraphStyle:
         )
 
         file_name = f"{title.replace(' ', '_').lower()}.html"
-        file_path = os.path.join(OUTPUT_DIR, file_name)
-        net.save_graph(file_path)
+        file_path = OUTPUT_DIR / file_name
+        net.save_graph(str(file_path))
 
-        abs_path = Path(file_path).absolute().as_uri()  # <-- STOP
+        abs_path = file_path.resolve().as_uri()
         print(f"HTML generado en: {abs_path}")
         webbrowser.open(abs_path)
