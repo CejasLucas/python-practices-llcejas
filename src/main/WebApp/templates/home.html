@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/home.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>GRAPHIC INTERFACE</h1>
+        <h2>Available Modules</h2>
+        <div class="grid">
+            {% for modulo in modulos %}
+                <div class="modulo">
+                    <a href="{{ url_for('main.module_page', file_name=modulo.file_name) }}">
+                        {{ modulo.name }}
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

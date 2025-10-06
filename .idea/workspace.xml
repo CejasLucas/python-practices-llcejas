@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/utils_networkx/style_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/minimum_spanning_tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outputs/original_graph.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/utils_networkx/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/utils_networkx/exercise7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/style_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/style_graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +17,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -46,15 +52,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.__main__ (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.__main__ (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;Python.example1.executor&quot;: &quot;Run&quot;,
     &quot;Python.examples (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.examples (2).executor&quot;: &quot;Run&quot;,
     &quot;Python.examples (3).executor&quot;: &quot;Run&quot;,
     &quot;Python.examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_conditionals.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_dictionaries.executor&quot;: &quot;Run&quot;,
     &quot;Python.run_for.executor&quot;: &quot;Run&quot;,
@@ -64,12 +74,15 @@
     &quot;Python.run_while.executor&quot;: &quot;Run&quot;,
     &quot;Python.runner_dictionaries.executor&quot;: &quot;Run&quot;,
     &quot;Python.runner_venn_diagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.socketio_handlers.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/usuario/Documentos/GitHub/python-practices-llcejas/data&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/usuario/Documentos/GitHub/python-practices-llcejas/resources PDF/Practices&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,25 +90,61 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources PDF/Practices" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/WebApp/__utils__" />
+      <recent name="$PROJECT_DIR$/src/main/__utils__" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/python/utils" />
-      <recent name="$PROJECT_DIR$/src/main/python" />
+      <recent name="$PROJECT_DIR$/src/main/WebApp" />
+      <recent name="$PROJECT_DIR$/src/main/Practices" />
+      <recent name="$PROJECT_DIR$/src/main/Practices/utils_venn_diagrams" />
+      <recent name="$PROJECT_DIR$/src/main/Practices/utils_pandas" />
+      <recent name="$PROJECT_DIR$/src/main/Practices/utils_numpy" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-practices-llcejas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/WebApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/WebApp/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__main__" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
-        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -118,10 +167,45 @@
       <workItem from="1753316654867" duration="5958000" />
       <workItem from="1753367437771" duration="7000" />
       <workItem from="1754161961669" duration="4807000" />
+      <workItem from="1758460435277" duration="8928000" />
+      <workItem from="1758486282790" duration="6287000" />
+      <workItem from="1758550459238" duration="7053000" />
+      <workItem from="1758679559001" duration="11285000" />
+      <workItem from="1758728565331" duration="2987000" />
+      <workItem from="1758892368142" duration="14811000" />
+      <workItem from="1758977941172" duration="6417000" />
+      <workItem from="1759101039445" duration="7937000" />
+      <workItem from="1759231138230" duration="3615000" />
+      <workItem from="1759237922050" duration="402000" />
+      <workItem from="1759321815521" duration="2134000" />
+      <workItem from="1759493169846" duration="701000" />
     </task>
+    <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
+      <option name="closed" value="true" />
+      <created>1758902640168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758902640168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mejore la calidad de los graficos, pero no logro que quede dentro de la terminal de xterm" />
+    <MESSAGE value="Cambie los colores del proyecto a naranaja" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambie los colores del proyecto a naranaja" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1759106581627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1759070935315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/cycle_for" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1759323877574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$run.coverage" NAME="run Coverage Results" MODIFIED="1758488183892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1758685486978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$socketio_handlers.coverage" NAME="socketio_handlers Coverage Results" MODIFIED="1758685505185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1759070898788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/conditionals" />
   </component>
 </project>
