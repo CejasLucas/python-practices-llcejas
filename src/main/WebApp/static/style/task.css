@@ -35,7 +35,7 @@ body {
     border-radius: 8px;
     overflow: auto;
     border: 2px solid var(--color-primary);
-    box-shadow: 0 6px 16px var(--color-zero);
+    box-shadow: 0 6px 16px var(--color-primary);
     margin: 1rem;
     padding: 1rem;
     font-size: 1.1em;
@@ -66,7 +66,7 @@ body {
 
 #url a {
     font-size: 14px;
-    color: var(--color-zero);
+    color: var(--color-primary);
     text-decoration: none;
     font-weight: bold;
 }

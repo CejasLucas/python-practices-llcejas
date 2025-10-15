@@ -68,7 +68,7 @@ a:hover {
     display: block;
     text-align: center;
     margin-top: 2rem;
-    color: var(--color-primary);
+    color: var(--white-color);
     font-weight: 500;
     text-decoration: none;
 }

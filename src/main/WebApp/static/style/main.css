@@ -46,7 +46,11 @@ header h1 {
     padding-left: 1rem;
     font-weight: 700;
     font-size: 2rem;
-    color: var(--white-color);
+    background: linear-gradient(90deg, var(--color-zero), var(--color-primary), var(--white-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 
@@ -62,11 +66,11 @@ header nav a {
     font-weight: 500;
     text-decoration: none;
     transition: color 0.2s ease;
-    color: var(--gray-colorbis);
+    color: var(--color-secondary);
 }
 
 header nav a:hover {
-    color: var(--color-secondary);
+    color: var(--gray-colorbis);
 }
 
 
@@ -76,7 +80,6 @@ footer {
     text-align: center;
     padding: 1rem;
     border-top: 1px solid var(--gray-color);
-    margin-top: 1rem;
     color: var(--gray-colorbis);
     font-size: 0.9rem;
 }
@@ -90,13 +93,13 @@ footer {
 }
 
 .social-links a {
-    color: var(--color-primary);
-    font-size: 1.25rem;
+    color: var(--color-secondary);
+    font-size: 1.4rem;
     transition: color 0.3s ease, transform 0.25s ease, text-shadow 0.3s ease;
 }
 
 .social-links a:hover {
-    color: var(--color-secondary);
+    color: var(--gray-colorbis);
     transform: scale(1.15);
-    text-shadow: 0 0 10px var(--color-secondary);
+    text-shadow: 0 0 10px var(--gray-colorbis);
 }
