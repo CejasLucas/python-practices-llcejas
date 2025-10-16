@@ -94,8 +94,8 @@ def genre_stats_per_movie(df):
 # Main function to execute all steps
 def run_exercise_6():
     base_path = os.path.dirname(__file__)
-    input_file = os.path.abspath(os.path.join(base_path, "..", "..", "..", "data", "movies_database.txt"))
-    output_file = os.path.abspath(os.path.join(base_path, "..", "..", "..", "data", "movies_database_modified.txt"))
+    input_file = os.path.abspath(os.path.join(base_path, "..", "..", "..", "..", "data", "movies_database.txt"))
+    output_file = os.path.abspath(os.path.join(base_path, "..", "..", "..", "..", "data", "movies_database_modified.txt"))
 
     clear_string(input_file, output_file)
     df = pd.read_csv(output_file, sep=r"::", engine="python", encoding='utf-8')

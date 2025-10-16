@@ -19,8 +19,8 @@ def run_exercise_4():
     ax2 = ax1.twinx()
     width = 0.4
 
-    washing_machine_color = "#3B6978"
-    refrigerators_color = "#6BAF92"
+    washing_machine_color = "#40E0D0"
+    refrigerators_color = "#FF69B4"
 
     # Create bars
     pop_bars = ax1.bar(x - width/2, washing_machine, width, label='Washing Machine', color=washing_machine_color, alpha=0.8)

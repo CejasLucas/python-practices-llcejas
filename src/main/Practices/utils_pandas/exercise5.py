@@ -3,7 +3,6 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
 def number_of_spaces(number): return print('\n' * number)
 
 def space_with_delimiter(number, delimiter): return print(delimiter * number)
@@ -29,7 +28,7 @@ def return_province_values(dataframe):
 
 def chart_of_values_by_province(dataframe):
     plt.figure(figsize=(14, 8))
-    sns.barplot(x=dataframe.values, y=dataframe.index, palette="viridis", legend=False)
+    sns.barplot(x=dataframe.values, y=dataframe.index, palette="magma", legend=False)
     plt.gcf().canvas.manager.set_window_title("Exercise 5")
     plt.title('Total employment by province (sorted)')
     plt.xlabel('Total employment value')
@@ -66,7 +65,7 @@ def data_printing(dataframe):
 
 def run_exercise_5():
     base_path = os.path.dirname(__file__)
-    file_path_test = os.path.abspath(os.path.join(base_path, "..", "..", "..", "data", "commerce_database.csv"))
+    file_path_test = os.path.abspath(os.path.join(base_path, "..", "..", "..", "..", "data", "commerce_database.csv"))
 
     print(f"Searching for the file at: {file_path_test} \n")
     data = pd.read_csv(file_path_test, delimiter=",", encoding='latin1')

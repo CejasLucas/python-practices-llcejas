@@ -10,7 +10,7 @@ def run_exercise_6():
     # Crear gráfico de dispersión
     plt.figure(figsize=(10, 6))
     plt.scatter(grades, group_one, color='blue', label='Group 1', s=100, alpha=0.7)
-    plt.scatter(grades, group_two, color='green', label='Group 2', s=100, alpha=0.7)
+    plt.scatter(grades, group_two, color='pink', label='Group 2', s=100, alpha=0.7)
 
     # Añadir etiquetas y título
     plt.xlabel('Range', fontsize=12)

@@ -15,13 +15,13 @@ def run_exercise_5():
     # Create
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    tea_color = "#A5D89D"
+    violet_color = "#6C63FF"
     water_color = "#3B6978"
-    coffee_color = "#6BAF92"
+    cian_color = "#00D1B2"
 
-    ax.bar(x - width, tea, width, label='Tea', color=tea_color)
+    ax.bar(x - width, tea, width, label='Tea', color=violet_color)
     ax.bar(x, water, width, label='Water', color=water_color)
-    ax.bar(x + width, coffee, width, label='Coffee', color=coffee_color)
+    ax.bar(x + width, coffee, width, label='Coffee', color=cian_color)
 
     # Labels
     ax.set_ylabel('Number of Drinks')

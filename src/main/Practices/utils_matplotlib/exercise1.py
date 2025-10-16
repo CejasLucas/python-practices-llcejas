@@ -1,19 +1,19 @@
 import matplotlib.pyplot as plt
 
 PIB_2020 = {
-    'Brazil': (2364409.9, '#4C72B0'),
-    'Mexico': (1309880.9, '#5FB49C'),
-    'Argentina': (440769.2, '#4C9F70'),
-    'Colombia': (394571.1, '#2A7F62'),
-    'Chile': (286013.8, '#8DB2D1'),
-    'Peru': (210881.6, '#A0CBE8'),
-    'Uruguay': (120532.1, '#C6E2DD'),
-    'Venezuela': (116067.8, '#3B6978'),
-    'Ecuador': (88554.7, '#7AB0A0'),
-    'Paraguay': (37260.6, '#88D8C0'),
-    'Bolivia': (29702.8, '#86C5A3'),
-    'Guyana': (11780.6, '#BFDCE5'),
-    'Suriname': (11678.2, '#D0E1F9'),
+    'Brazil': (2364409.9, '#FFB6C1'),    # Rosado claro
+    'Mexico': (1309880.9, '#DA70D6'),    # Violeta
+    'Argentina': (440769.2, '#87CEFA'),  # Azul claro
+    'Colombia': (394571.1, '#00CED1'),   # Cian
+    'Chile': (286013.8, '#FF69B4'),      # Rosa fuerte
+    'Peru': (210881.6, '#BA55D3'),       # Violeta medio
+    'Uruguay': (120532.1, '#ADD8E6'),    # Azul pastel
+    'Venezuela': (116067.8, '#40E0D0'),  # Turquesa
+    'Ecuador': (88554.7, '#FF1493'),     # Rosado intenso
+    'Paraguay': (37260.6, '#8A2BE2'),    # Violeta oscuro
+    'Bolivia': (29702.8, '#87CEEB'),     # Azul celeste
+    'Guyana': (11780.6, '#00FFFF'),      # Cian brillante
+    'Suriname': (11678.2, '#4169E1'),    # Azul royal
 }
 
 def run_exercise_1():

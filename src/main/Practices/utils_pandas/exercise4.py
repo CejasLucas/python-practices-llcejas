@@ -1,5 +1,8 @@
-import os
+from pathlib import Path
 import pandas as pd
+
+PROJECT_ROOT = Path(__file__).resolve().parents[4]
+DATA_FILE = PROJECT_ROOT / "data" / "cars_database.csv"
 
 def calculated_pandas_df(dataframe):
     dataframe['Price'] = pd.to_numeric(dataframe['Price'], errors='coerce')
@@ -18,13 +21,12 @@ def calculated_pandas_df(dataframe):
 
 
 def run_exercise_4():
-    base_path = os.path.dirname(__file__)
-    file_path = os.path.join(base_path, "..", "..", "..", "data", "cars_database.csv")
-    file_path = os.path.abspath(file_path)
+    print(f"Searching for the file at: {DATA_FILE}\n")
 
-    print(f"Searching for the file at: {file_path}\n")
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(f"❌ El archivo no existe en: {DATA_FILE}")
 
-    dataframe = pd.read_csv(file_path, delimiter=";")
+    dataframe = pd.read_csv(DATA_FILE, delimiter=";")
 
     new_dataframe = calculated_pandas_df(dataframe)
 

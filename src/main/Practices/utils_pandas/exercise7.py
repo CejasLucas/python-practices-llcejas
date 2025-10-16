@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-custom_colors = ['#6BAF92', '#FFF176', '#A5D89D']
+custom_colors = ['#6C63FF', '#F5B7B1', '#FF6584']
 
 def print_seniority_stats(df):
     df['yrs.service'] = pd.to_numeric(df['yrs.service'], errors='coerce')
@@ -59,7 +59,7 @@ def aggregate_salary_stats(df):
 
 def run_exercise_7():
     base_path = os.path.dirname(__file__)
-    file_path = os.path.abspath(os.path.join(base_path, "..", "..", "..", "data", "salaries_database.csv"))
+    file_path = os.path.abspath(os.path.join(base_path, "..", "..", "..", "..", "data", "salaries_database.csv"))
 
     print(f"Loading salary data from: {file_path}")
     df = pd.read_csv(file_path, delimiter=",", encoding="latin1")

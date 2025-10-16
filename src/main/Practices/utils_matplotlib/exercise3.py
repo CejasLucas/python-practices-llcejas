@@ -39,8 +39,8 @@ def run_exercise_3():
     width = 0.4
 
     # Fixed colors for all populations and surfaces
-    population_color = "#3B6978"
-    surface_color = "#2A7F62"
+    population_color = "#40E0D0"
+    surface_color = "#FF69B4"
 
     pop_bars = ax1.bar(x - width/2, populations, width, label='Population', color=population_color, alpha=0.8)
     area_bars = ax2.bar(x + width/2, surfaces, width, label='Surface Area (km²)', color=surface_color, alpha=0.6)
