@@ -5,32 +5,28 @@ phone_book = {
     'Galarza Natalia': 112458794
 }
 
-def is_valid_input(data, message):
-    if data == "":
-        print(f"\nInvalid {message}.")
-        return False
-    return True
-
-
 def run_exercise_1():
-    print("\nLeave the name empty and press Enter to finish.")
+    print("\nCreate a dictionary where the key is the user's name and the value is their")
+    print("phone number. Keep asking for contacts until the user chooses to stop.")
+    print("Names must be unique (no duplicates allowed).")
+    print("\n[NOTE] Leave the name empty and press Enter to finish.")
 
     while True:
-        username = input("\nContact name: ").strip()
-
+        print("\n" + "-" * 75)
+        username = input("Contact name: ").strip()
         user_telephone = input("\nContact phone number: ").strip()
 
-        if not is_valid_input(username, "username"): break
-
-        if not is_valid_input(user_telephone, "phone number"): break
-
-        if not user_telephone.isdigit():
-            print("\nPhone number must contain only digits.")
+        if username == "" or user_telephone == "":
+            print("\n⚠️  I can't save an empty contact\n")
+            print("\n" + "=" * 75)
             break
 
-        print("-----------------------------------------")
+        if not user_telephone.isdigit():
+            print("\n⚠️  Phone number must contain only digits.\n")
+            print("\n" + "=" * 75)
+            break
         phone_book[username] = int(user_telephone)
 
-    print("\nCreated contact book:")
+    print("\n📖  Created contact book:\n")
 
-    print(phone_book)
+    for name, telephone in phone_book.items(): print(f"Name: {name} | Telephone: {telephone}")
